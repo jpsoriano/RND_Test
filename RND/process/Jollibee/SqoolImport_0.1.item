@@ -5,7 +5,7 @@
     <contextParameter comment="" name="HDFS1_ResourceManagerScheduler" prompt="HDFS1_ResourceManagerScheduler?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="http://13.228.96.155:8030"/>
     <contextParameter comment="" name="HDFS1_NameNodeUri" prompt="HDFS1_NameNodeUri?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="hdfs://13.228.96.155:8020"/>
     <contextParameter comment="" name="HDFS1_StagingDirectory" prompt="HDFS1_StagingDirectory?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="/user"/>
-    <contextParameter comment="" name="HDFS1_User" prompt="HDFS1_User?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="cloudera"/>
+    <contextParameter comment="" name="HDFS1_User" prompt="HDFS1_User?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="root"/>
     <contextParameter comment="" name="HDFS1_JobHistory" prompt="HDFS1_JobHistory?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="http://13.228.96.155:10020"/>
   </context>
   <parameters>

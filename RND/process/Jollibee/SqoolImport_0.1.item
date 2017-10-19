@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="HDFS1_ResourceManager" prompt="HDFS1_ResourceManager?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="http://13.228.96.155:8032"/>
-    <contextParameter comment="" name="HDFS1_ResourceManagerScheduler" prompt="HDFS1_ResourceManagerScheduler?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="http://13.228.96.155:8030"/>
-    <contextParameter comment="" name="HDFS1_NameNodeUri" prompt="HDFS1_NameNodeUri?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="hdfs://13.228.96.155:8020"/>
+    <contextParameter comment="" name="HDFS1_ResourceManager" prompt="HDFS1_ResourceManager?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="http://192.168.1.11:8032"/>
+    <contextParameter comment="" name="HDFS1_ResourceManagerScheduler" prompt="HDFS1_ResourceManagerScheduler?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="http://192.168.1.11:8030"/>
+    <contextParameter comment="" name="HDFS1_NameNodeUri" prompt="HDFS1_NameNodeUri?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="hdfs://192.168.1.11:8020"/>
     <contextParameter comment="" name="HDFS1_StagingDirectory" prompt="HDFS1_StagingDirectory?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="/user"/>
     <contextParameter comment="" name="HDFS1_User" prompt="HDFS1_User?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="root"/>
-    <contextParameter comment="" name="HDFS1_JobHistory" prompt="HDFS1_JobHistory?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="http://13.228.96.155:10020"/>
+    <contextParameter comment="" name="HDFS1_JobHistory" prompt="HDFS1_JobHistory?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="http://192.168.1.11:10020"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;-Dhadoop.home.dir=C:\\Hadoop\\hadoop-common-2.2.0-bin-master&quot;,&quot;-Dhdp.version=2.6.0-cdh5.12.0&quot;]}" show="false"/>

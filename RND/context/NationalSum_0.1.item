@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_9SiqZ7S2Eee1EoraJTJiWA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_9SiqaLS2Eee1EoraJTJiWA" comment="" name="NationalSum_File" prompt="NationalSum_File?" promptNeeded="false" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Tasks/PSGC Publication MAR2017.xlsx"/>
+  <contextParameter xmi:id="_9SiqabS2Eee1EoraJTJiWA" comment="" name="NationalSum_Encoding" prompt="NationalSum_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+  <contextParameter xmi:id="_9SiqarS2Eee1EoraJTJiWA" comment="" name="NationalSum_Header" prompt="NationalSum_Header?" promptNeeded="false" type="id_Integer" value="10"/>
+  <contextParameter xmi:id="_9Siqa7S2Eee1EoraJTJiWA" comment="" name="NationalSum_LastColumn" prompt="NationalSum_LastColumn?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_9SiqbLS2Eee1EoraJTJiWA" comment="" name="NationalSum_Footer" prompt="NationalSum_Footer?" promptNeeded="false" type="id_Integer" value="2"/>
+  <contextParameter xmi:id="_9SiqbbS2Eee1EoraJTJiWA" comment="" name="NationalSum_DecimalSeparator" prompt="NationalSum_DecimalSeparator?" promptNeeded="false" type="id_String" value="'.'"/>
+  <contextParameter xmi:id="_9SiqbrS2Eee1EoraJTJiWA" comment="" name="NationalSum_FirstColumn" prompt="NationalSum_FirstColumn?" promptNeeded="false" type="id_Integer" value="1"/>
+  <contextParameter xmi:id="_9Siqb7S2Eee1EoraJTJiWA" comment="" name="NationalSum_ThousandSeparator" prompt="NationalSum_ThousandSeparator?" promptNeeded="false" type="id_String" value="','"/>
+</talendfile:ContextType>

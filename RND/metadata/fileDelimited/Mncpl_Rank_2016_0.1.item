@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_kNJoAbRuEeewvq6Ve5Ih5A" name="Mncpl_Rank_2016" dataPackage="_kNJoArRuEeewvq6Ve5Ih5A" ContextMode="true" ContextId="_io3x0LRuEeewvq6Ve5Ih5A" contextName="Default" Server="Localhost 127.0.0.1" FilePath="context.Mncpl_Rank_2016_File" Format="WINDOWS" Encoding="context.Mncpl_Rank_2016_Encoding" FieldSeparatorValue="context.Mncpl_Rank_2016_FieldSeparator" RowSeparatorValue="context.Mncpl_Rank_2016_RowSeparator" UseHeader="true" HeaderValue="context.Mncpl_Rank_2016_Header" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kNJoArRuEeewvq6Ve5Ih5A" name="default" dataManager="_kNJoAbRuEeewvq6Ve5Ih5A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kNJoA7RuEeewvq6Ve5Ih5A" id="_dcd-YLRuEeewvq6Ve5Ih5A" label="Mncpl_Rank_2016">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNJoBLRuEeewvq6Ve5Ih5A" label="overall_rank" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNJoBbRuEeewvq6Ve5Ih5A" label="overall_score" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNJoBrRuEeewvq6Ve5Ih5A" label="Local_Government" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNJoB7RuEeewvq6Ve5Ih5A" label="Income_Classification" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNJoCLRuEeewvq6Ve5Ih5A" label="Province" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNJoCbRuEeewvq6Ve5Ih5A" label="Region" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNJoCrRuEeewvq6Ve5Ih5A" label="Economic_Dynamism_rank" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNJoC7RuEeewvq6Ve5Ih5A" label="Economic_Dynamism_score" length="9" precision="8" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNJoDLRuEeewvq6Ve5Ih5A" label="Government_Efficiency_rank" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNJoDbRuEeewvq6Ve5Ih5A" label="Government_Efficiency_score" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNJoDrRuEeewvq6Ve5Ih5A" label="Infrastructure_rank" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kNJoD7RuEeewvq6Ve5Ih5A" label="Infrastructure_score" length="9" precision="8" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

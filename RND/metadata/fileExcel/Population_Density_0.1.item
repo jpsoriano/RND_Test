@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_Emz9wLP9EeeNX9MyGyWy1w" name="Population_Density" dataPackage="_Emz9wbP9EeeNX9MyGyWy1w" ContextMode="true" ContextId="__R-AALP8EeeNX9MyGyWy1w" Server="Localhost 127.0.0.1" FilePath="context.Population_Density_File" Encoding="context.Population_Density_Encoding" UseHeader="true" HeaderValue="context.Population_Density_Header" UseFooter="true" FooterValue="context.Population_Density_Footer" FirstLineCaption="true" SheetName="Table 1" firstColumn="context.Population_Density_FirstColumn" lastColumn="context.Population_Density_LastColumn" thousandSeparator="context.Population_Density_ThousandSeparator" decimalSeparator="context.Population_Density_DecimalSeparator" selectAllSheets="true" sheetList="Table 1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Emz9wbP9EeeNX9MyGyWy1w" name="default" dataManager="_Emz9wLP9EeeNX9MyGyWy1w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Emz9wrP9EeeNX9MyGyWy1w" id="_MJQ4ALP8EeeNX9MyGyWy1w" label="Population_Density">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Emz9w7P9EeeNX9MyGyWy1w" label="Region__Province_Highly_Urbanized_City__and_City_Municipality" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Emz9xLP9EeeNX9MyGyWy1w" label="Population" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L8ApsLP9EeeNX9MyGyWy1w" name="Column0" label="Column0" length="10" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Emz9xbP9EeeNX9MyGyWy1w" label="Land_Area__square__kilometers__a1__a2__a3_" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Emz9xrP9EeeNX9MyGyWy1w" label="Population_Density__persons_per_square_kilometer_" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

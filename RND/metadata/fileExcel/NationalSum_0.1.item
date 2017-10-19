@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_CdgugbR3Eeewvq6Ve5Ih5A" name="NationalSum" dataPackage="_CdgugrR3Eeewvq6Ve5Ih5A" ContextMode="true" ContextId="_Bc2Q0LR5Eeewvq6Ve5Ih5A" contextName="Default" Server="Localhost 127.0.0.1" FilePath="context.NationalSum_File" Encoding="context.NationalSum_Encoding" UseHeader="true" HeaderValue="context.NationalSum_Header" UseFooter="true" FooterValue="context.NationalSum_Footer" FirstLineCaption="true" SheetName="Nat'l Sum" firstColumn="context.NationalSum_FirstColumn" lastColumn="context.NationalSum_LastColumn" thousandSeparator="context.NationalSum_ThousandSeparator" decimalSeparator="context.NationalSum_DecimalSeparator" sheetList="Nat'l Sum:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_CdgugrR3Eeewvq6Ve5Ih5A" name="default" dataManager="_CdgugbR3Eeewvq6Ve5Ih5A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Cdgug7R3Eeewvq6Ve5Ih5A" id="_LSEw4LR2Eeewvq6Ve5Ih5A" label="NationalSum">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CdguhLR3Eeewvq6Ve5Ih5A" label="CODE" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CdguhbR3Eeewvq6Ve5Ih5A" label="Column1" length="148" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CdguhrR3Eeewvq6Ve5Ih5A" label="REGION" length="43" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cdguh7R3Eeewvq6Ve5Ih5A" label="PROV_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CdguiLR3Eeewvq6Ve5Ih5A" label="CITIES" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CdguibR3Eeewvq6Ve5Ih5A" label="MUN_" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CdguirR3Eeewvq6Ve5Ih5A" label="BGY_" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cdgui7R3Eeewvq6Ve5Ih5A" label="POPULATION__as_of_31_August_2015_" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CdgujLR3Eeewvq6Ve5Ih5A" label="Column8" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CdgujbR3Eeewvq6Ve5Ih5A" label="Column9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CdgujrR3Eeewvq6Ve5Ih5A" label="Column10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

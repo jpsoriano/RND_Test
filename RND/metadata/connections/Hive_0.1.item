@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_Lf4yULSVEeeIt7UIJsbc-g" name="Hive" id="_WE3CYLSUEeeIt7UIJsbc-g" label="Hive" dataPackage="_cnK8ALSYEeeIt7UIJsbc-g" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://10.23.16.44:10000/default" dbVersionString="STANDALONE" Port="10000" Username="cloudera" Password="V0aaAUQoIlQr983bC5VVxw==" ServerName="10.23.16.44" DatasourceName="" FileFieldName="" SID="default" SqlSynthax="SQL Syntax" DbmsId="hive_id" ProductId="HIVE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="default">
+    <taggedValue xmi:id="_Lf4yUbSVEeeIt7UIJsbc-g" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_LgLtQLSVEeeIt7UIJsbc-g" tag="package filter" value=""/>
+    <taggedValue xmi:id="_LgVeQLSVEeeIt7UIJsbc-g" tag="Status" value=""/>
+    <taggedValue xmi:id="_LgVeQbSVEeeIt7UIJsbc-g" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_LgVeQrSVEeeIt7UIJsbc-g" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_LgVeQ7SVEeeIt7UIJsbc-g" tag="Description" value=""/>
+    <taggedValue xmi:id="_LgVeRLSVEeeIt7UIJsbc-g" tag="Author" value=""/>
+    <taggedValue xmi:id="_LgVeRbSVEeeIt7UIJsbc-g" tag="otherParameter"/>
+    <taggedValue xmi:id="_LjUg0LSVEeeIt7UIJsbc-g" tag="DB ProductName" value="Apache Hive"/>
+    <taggedValue xmi:id="_LjUg0bSVEeeIt7UIJsbc-g" tag="DB ProductVersion" value="1.1.0-cdh5.12.0"/>
+    <parameters xmi:id="_Lf4yUrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USERNAME" value="cloudera"/>
+    <parameters xmi:id="_Lf4yU7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
+    <parameters xmi:id="_Lf4yVLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_Lf4yVbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_8"/>
+    <parameters xmi:id="_Lf4yVrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+    <parameters xmi:id="_Lf4yV7SVEeeIt7UIJsbc-g" key="HIVE_SERVER_VERSION" value="HIVE2"/>
+    <parameters xmi:id="_Lf4yWLSVEeeIt7UIJsbc-g" key="HIVE_AUTHENTICATION_HIVEPRINCIPLA" value="hive/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Lf4yWbSVEeeIt7UIJsbc-g" key="HIVE_AUTHENTICATION_METASTOREURL" value=""/>
+    <parameters xmi:id="_Lf4yWrSVEeeIt7UIJsbc-g" key="HIVE_AUTHENTICATION_DRIVERCLASS" value=""/>
+    <parameters xmi:id="_Lf4yW7SVEeeIt7UIJsbc-g" key="HIVE_AUTHENTICATION_USERNAME" value=""/>
+    <parameters xmi:id="_Lf4yXLSVEeeIt7UIJsbc-g" key="HIVE_AUTHENTICATION_PASSWORD" value=""/>
+    <parameters xmi:id="_Lf4yXbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HIVE_ADDITIONAL_JDBC_SETTINGS" value=""/>
+    <parameters xmi:id="_Lf4yXrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value=""/>
+    <parameters xmi:id="_Lf4yX7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_KEYTAB" value=""/>
+    <parameters xmi:id="_Lf4yYLSVEeeIt7UIJsbc-g" key="HIVE_EXECUTION_ENGINE"/>
+    <parameters xmi:id="_Lf4yYbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_Lf4yYrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USE_SSL" value="false"/>
+    <parameters xmi:id="_Lf4yY7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_NAME_NODE_URL" value="context.HDFS1_NameNodeUri"/>
+    <parameters xmi:id="_Lf4yZLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="context.HDFS1_ResourceManager"/>
+    <parameters xmi:id="_Lf4yZbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDH5_8"/>
+    <parameters xmi:id="_Lf4yZrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="context.HDFS1_ResourceManagerScheduler"/>
+    <parameters xmi:id="_Lf4yZ7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_Lf4yaLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="false"/>
+    <parameters xmi:id="_Lf4yabSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+    <parameters xmi:id="_Lf4yarSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_Lf4ya7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="context.HDFS1_StagingDirectory"/>
+    <parameters xmi:id="_Lf4ybLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_uG0MILO7EeeMVchsBdwKnQ"/>
+    <parameters xmi:id="_Lf4ybbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Lf4ybrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Lf4yb7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_8"/>
+    <parameters xmi:id="_Lf4ycLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="context.HDFS1_JobHistory"/>
+    <parameters xmi:id="_Lf4ycbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="false"/>
+    <parameters xmi:id="_Lf4ycrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_DB_SERVER" value="10.23.16.44"/>
+    <parameters xmi:id="_Lf4yc7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_Lf4ydLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_Lf4ydbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Lf4ydrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_YKNI0LSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+    <parameters xmi:id="_XknoILSYEeeIt7UIJsbc-g" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
+    <parameters xmi:id="_XknoIbSYEeeIt7UIJsbc-g" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_cnK8ALSYEeeIt7UIJsbc-g" name="default" dataManager="_Lf4yULSVEeeIt7UIJsbc-g"/>
+</xmi:XMI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_XrgvkLRyEeewvq6Ve5Ih5A" name="Population_Density" id="_TYlh0LRyEeewvq6Ve5Ih5A" label="Population_Density" dataPackage="_Xrqgk7RyEeewvq6Ve5Ih5A" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/pop_density?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="NZNgK6DuncI=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="pop_density" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_XrgvkbRyEeewvq6Ve5Ih5A" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_XrgvlrRyEeewvq6Ve5Ih5A" tag="package filter" value=""/>
+    <taggedValue xmi:id="_Xrgvl7RyEeewvq6Ve5Ih5A" tag="Status" value=""/>
+    <taggedValue xmi:id="_XrgvmLRyEeewvq6Ve5Ih5A" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_XrgvmbRyEeewvq6Ve5Ih5A" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_XrgvmrRyEeewvq6Ve5Ih5A" tag="Description" value=""/>
+    <taggedValue xmi:id="_Xrgvm7RyEeewvq6Ve5Ih5A" tag="Author" value=""/>
+    <taggedValue xmi:id="_XrgvnLRyEeewvq6Ve5Ih5A" tag="otherParameter"/>
+    <taggedValue xmi:id="_XrqgkLRyEeewvq6Ve5Ih5A" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_XrqgkbRyEeewvq6Ve5Ih5A" tag="DB ProductVersion" value="5.6.35"/>
+    <taggedValue xmi:id="_XrqgkrRyEeewvq6Ve5Ih5A" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_XrgvkrRyEeewvq6Ve5Ih5A" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_Xrqgk7RyEeewvq6Ve5Ih5A" name="pop_density" dataManager="_XrgvkLRyEeewvq6Ve5Ih5A"/>
+</xmi:XMI>

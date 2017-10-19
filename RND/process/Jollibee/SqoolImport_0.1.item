@@ -11,7 +11,7 @@
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" value="true" show="false"/>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Trace" show="false"/>
-    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;-Dhadoop.home.dir=C:\\Hadoop\\hadoop-common-2.2.0-bin-master&quot;,&quot;-Dhdp.version=2.6.0-cdh5.12.0&quot;,&quot;-Djava.security.krb5.realm=NOVARE.COM.HK&quot;,&quot;-Djava.security.krb5.kdc=nvnenr2n15.novare.com.hk&quot;,&quot;-Dsun.security.krb5.debug=true&quot;]}" show="false"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;-Dhadoop.home.dir=C:\\Hadoop\\hadoop-common-2.2.0-bin-master&quot;,&quot;-Dhdp.version=2.6.0-cdh5.12.0&quot;,&quot;-Djava.security.krb5.realm=NOVARE.COM.HK&quot;,&quot;-Djava.security.krb5.kdc=nvnenr2n15.novare.com.hk&quot;,&quot;-Djava.security.krb5.conf=C:\\ProgramData\\MIT\\Kerberos5\\krb5.ini&quot;,&quot;-Dsun.security.krb5.debug=true&quot;]}" show="false"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>

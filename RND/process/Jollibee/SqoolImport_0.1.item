@@ -9,7 +9,7 @@
     <contextParameter comment="" name="HDFS1_JobHistory" prompt="HDFS1_JobHistory?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="http://192.168.1.11:10020"/>
   </context>
   <parameters>
-    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;-Dhadoop.home.dir=C:\\Hadoop\\hadoop-common-2.2.0-bin-master&quot;,&quot;-Dhdp.version=2.6.0-cdh5.12.0&quot;,&quot;-Djava.security.krb5.conf=C:\\ProgramData\\MIT\\Kerberos5\\krb5.conf&quot;]}" show="false"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;-Dhadoop.home.dir=C:\\Hadoop\\hadoop-common-2.2.0-bin-master&quot;,&quot;-Dhdp.version=2.6.0-cdh5.12.0&quot;]}" show="false"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>

@@ -11,7 +11,7 @@
     <taggedValue xmi:id="_LgVeRbSVEeeIt7UIJsbc-g" tag="otherParameter"/>
     <taggedValue xmi:id="_LjUg0LSVEeeIt7UIJsbc-g" tag="DB ProductName" value="Apache Hive"/>
     <taggedValue xmi:id="_LjUg0bSVEeeIt7UIJsbc-g" tag="DB ProductVersion" value="1.1.0-cdh5.12.0"/>
-    <parameters xmi:id="_Lf4yUrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USERNAME" value="cloudera"/>
+    <parameters xmi:id="_Lf4yUrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USERNAME" value=""/>
     <parameters xmi:id="_Lf4yU7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
     <parameters xmi:id="_Lf4yVLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA"/>
     <parameters xmi:id="_Lf4yVbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_8"/>
@@ -23,34 +23,36 @@
     <parameters xmi:id="_Lf4yW7SVEeeIt7UIJsbc-g" key="HIVE_AUTHENTICATION_USERNAME" value=""/>
     <parameters xmi:id="_Lf4yXLSVEeeIt7UIJsbc-g" key="HIVE_AUTHENTICATION_PASSWORD" value=""/>
     <parameters xmi:id="_Lf4yXbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HIVE_ADDITIONAL_JDBC_SETTINGS" value=""/>
-    <parameters xmi:id="_Lf4yXrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value=""/>
-    <parameters xmi:id="_Lf4yX7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_KEYTAB" value=""/>
+    <parameters xmi:id="_Lf4yXrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="&quot;ttableau/nvenr2n15.novare.com.hk&quot;"/>
+    <parameters xmi:id="_Lf4yX7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_KEYTAB" value="C:/Users/Administrator/Documents/ttableau.keytab"/>
     <parameters xmi:id="_Lf4yYLSVEeeIt7UIJsbc-g" key="HIVE_EXECUTION_ENGINE"/>
     <parameters xmi:id="_Lf4yYbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USE_YARN" value="true"/>
     <parameters xmi:id="_Lf4yYrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USE_SSL" value="false"/>
-    <parameters xmi:id="_Lf4yY7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_NAME_NODE_URL" value="context.HDFS1_NameNodeUri"/>
-    <parameters xmi:id="_Lf4yZLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="context.HDFS1_ResourceManager"/>
+    <parameters xmi:id="_Lf4yY7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://192.168.1.11:8020"/>
+    <parameters xmi:id="_Lf4yZLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="192.168.1.11:8032"/>
     <parameters xmi:id="_Lf4yZbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDH5_8"/>
-    <parameters xmi:id="_Lf4yZrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="context.HDFS1_ResourceManagerScheduler"/>
+    <parameters xmi:id="_Lf4yZrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="192.168.1.11:8030"/>
     <parameters xmi:id="_Lf4yZ7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA"/>
     <parameters xmi:id="_Lf4yaLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="false"/>
-    <parameters xmi:id="_Lf4yabSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+    <parameters xmi:id="_Lf4yabSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USE_KRB" value="true"/>
     <parameters xmi:id="_Lf4yarSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA"/>
-    <parameters xmi:id="_Lf4ya7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="context.HDFS1_StagingDirectory"/>
+    <parameters xmi:id="_Lf4ya7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
     <parameters xmi:id="_Lf4ybLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_uG0MILO7EeeMVchsBdwKnQ"/>
-    <parameters xmi:id="_Lf4ybbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@EXAMPLE.COM"/>
-    <parameters xmi:id="_Lf4ybrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Lf4ybbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/nvnnr1n11.novare.com.hk@NOVARE.COM.HK"/>
+    <parameters xmi:id="_Lf4ybrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="yarn/nvnnr2n12.novare.com.hk@NOVARE.COM.HK"/>
     <parameters xmi:id="_Lf4yb7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_8"/>
-    <parameters xmi:id="_Lf4ycLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="context.HDFS1_JobHistory"/>
+    <parameters xmi:id="_Lf4ycLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="192.168.1.11:10020"/>
     <parameters xmi:id="_Lf4ycbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="false"/>
-    <parameters xmi:id="_Lf4ycrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_DB_SERVER" value="10.23.16.44"/>
+    <parameters xmi:id="_Lf4ycrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_DB_SERVER" value="192.168.1.11"/>
     <parameters xmi:id="_Lf4yc7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
     <parameters xmi:id="_Lf4ydLSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
-    <parameters xmi:id="_Lf4ydbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Lf4ydbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/nvnnr1n11.novare.com.hk@NOVARE.COM.HK"/>
     <parameters xmi:id="_Lf4ydrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
     <parameters xmi:id="_YKNI0LSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
     <parameters xmi:id="_XknoILSYEeeIt7UIJsbc-g" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
     <parameters xmi:id="_XknoIbSYEeeIt7UIJsbc-g" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
+    <parameters xmi:id="_FH6tYLTGEeeBhJzuY6yDuA" key="CONN_PARA_KEY_USEKEYTAB" value="true"/>
+    <parameters xmi:id="_FH77gLTGEeeBhJzuY6yDuA" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Schema xmi:id="_cnK8ALSYEeeIt7UIJsbc-g" name="default" dataManager="_Lf4yULSVEeeIt7UIJsbc-g"/>
 </xmi:XMI>

@@ -138,11 +138,11 @@
     <elementParameter field="CHECK" name="CROSS_PLATFORM_SUBMISSION" value="false" show="false"/>
     <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://192.168.1.11:8020&quot;"/>
     <elementParameter field="TEXT" name="MAPRED_JOB_TRACKER" value="&quot;localhost:8021&quot;" show="false"/>
-    <elementParameter field="TEXT" name="RESOURCE_MANAGER" value="&quot;192.168.1.11:8032&quot;"/>
+    <elementParameter field="TEXT" name="RESOURCE_MANAGER" value="&quot;nvnnr1n11:8032&quot;"/>
     <elementParameter field="CHECK" name="SET_SCHEDULER_ADDRESS" value="true"/>
-    <elementParameter field="TEXT" name="RESOURCEMANAGER_SCHEDULER_ADDRESS" value="&quot;192.168.1.11:8030&quot;"/>
+    <elementParameter field="TEXT" name="RESOURCEMANAGER_SCHEDULER_ADDRESS" value="&quot;nvnnr1n11:8030&quot;"/>
     <elementParameter field="CHECK" name="SET_JOBHISTORY_ADDRESS" value="true"/>
-    <elementParameter field="TEXT" name="JOBHISTORY_ADDRESS" value="&quot;192.168.1.11:10020&quot;"/>
+    <elementParameter field="TEXT" name="JOBHISTORY_ADDRESS" value="&quot;nvnnr1n11:10020&quot;"/>
     <elementParameter field="CHECK" name="SET_STAGING_DIRECTORY" value="true"/>
     <elementParameter field="TEXT" name="STAGING_DIRECTORY" value="&quot;/user&quot;"/>
     <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="false"/>
@@ -210,7 +210,10 @@
     <elementParameter field="TABLE" name="SPECIFIC_PARAMS" show="false"/>
     <elementParameter field="CHECK" name="USE_ADDITION_PARAM" value="false" show="false"/>
     <elementParameter field="TEXT" name="SPECIFIC_ADDITION_PARAM" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
+    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES">
+      <elementValue elementRef="PROPERTY" value="&quot;kerberos.realm&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;NOVARE.COM.HK&quot;"/>
+    </elementParameter>
     <elementParameter field="TEXT" name="MAPRED_JOB_MAP_MEMORY_MB" value="&quot;1000&quot;" show="false"/>
     <elementParameter field="TEXT" name="MAPRED_JOB_REDUCE_MEMORY_MB" value="&quot;1000&quot;" show="false"/>
     <elementParameter field="CHECK" name="SET_MEMORY" value="false"/>
@@ -261,7 +264,11 @@
       <elementValue elementRef="NEWNAME" value="&quot;&quot;"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
-    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
+    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES">
+      <elementValue elementRef="PROPERTY" value="&quot;kerberos.realm&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;NOVARE.COM.HK&quot;"/>
+      <elementValue elementRef="BUILDIN" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="SET_MAPR_HOME_DIR" value="false" show="false"/>
     <elementParameter field="TEXT" name="MAPR_HOME_DIR" value="&quot;/opt/mapr&quot;" show="false"/>
     <elementParameter field="CHECK" name="SET_HADOOP_LOGIN" value="false" show="false"/>
@@ -292,7 +299,11 @@
     <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" value="0RMsyjmybrE=" show="false"/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" value="&quot;demo.mapr.com&quot;" show="false"/>
     <elementParameter field="TEXT" name="MAPRTICKET_DURATION" value="86400L" show="false"/>
-    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
+    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES">
+      <elementValue elementRef="PROPERTY" value="&quot;kerberos.realm&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;NOVARE.COM.HK&quot;"/>
+      <elementValue elementRef="BUILDIN" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="false"/>
     <elementParameter field="CHECK" name="USE_HDFS_ENCRYPTION" value="false"/>
     <elementParameter field="TEXT" name="HDFS_ENCRYPTION_KEY_PROVIDER" value="&quot;kms://http@localhost:16000/kms&quot;" show="false"/>
@@ -516,7 +527,11 @@
     <elementParameter field="LABEL" name="NOTE" value="If you are on Windows, add a '/' in front of the path you type in." show="false"/>
     <elementParameter field="CHECK" name="SET_TEMP_PATH" value="false" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_PATH" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
+    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES">
+      <elementValue elementRef="PROPERTY" value="&quot;kerberos.realm&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;NOVARE.COM.HK&quot;"/>
+      <elementValue elementRef="BUILDIN" value=""/>
+    </elementParameter>
     <elementParameter field="TABLE" name="ADVANCED_PROPERTIES"/>
     <elementParameter field="TEXT" name="MAPRED_JOB_MAP_MEMORY_MB" value="&quot;1000&quot;" show="false"/>
     <elementParameter field="TEXT" name="MAPRED_JOB_REDUCE_MEMORY_MB" value="&quot;1000&quot;" show="false"/>
@@ -639,7 +654,11 @@
     <elementParameter field="LABEL" name="NOTE" value="If you are on Windows, add a '/' in front of the path you type in."/>
     <elementParameter field="CHECK" name="SET_TEMP_PATH" value="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_PATH" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
+    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES">
+      <elementValue elementRef="PROPERTY" value="&quot;kerberos.realm&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;NOVARE.COM.HK&quot;"/>
+      <elementValue elementRef="BUILDIN" value=""/>
+    </elementParameter>
     <elementParameter field="TABLE" name="ADVANCED_PROPERTIES"/>
     <elementParameter field="TEXT" name="MAPRED_JOB_MAP_MEMORY_MB" value="&quot;1000&quot;" show="false"/>
     <elementParameter field="TEXT" name="MAPRED_JOB_REDUCE_MEMORY_MB" value="&quot;1000&quot;" show="false"/>
@@ -772,7 +791,11 @@
       <elementValue elementRef="NEWNAME" value="&quot;&quot;"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
-    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
+    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES">
+      <elementValue elementRef="PROPERTY" value="&quot;kerberos.realm&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;NOVARE.COM.HK&quot;"/>
+      <elementValue elementRef="BUILDIN" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="SET_MAPR_HOME_DIR" value="false" show="false"/>
     <elementParameter field="TEXT" name="MAPR_HOME_DIR" value="&quot;/opt/mapr&quot;" show="false"/>
     <elementParameter field="CHECK" name="SET_HADOOP_LOGIN" value="false" show="false"/>

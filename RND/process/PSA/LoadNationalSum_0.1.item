@@ -272,7 +272,7 @@
       <column comment="" key="false" length="0" name="Column10" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="WithCode" expressionFilter="row1.CODE != null" activateExpressionFilter="true">
         <mapperTableEntries name="CODE" expression="row1.CODE " type="id_String" nullable="true"/>

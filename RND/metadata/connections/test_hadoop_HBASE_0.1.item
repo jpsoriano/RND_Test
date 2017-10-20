@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_zB2ioLVDEeeUVf-uyG-Vgg" dataPackage="_zB3J0LVDEeeUVf-uyG-Vgg" DatabaseType="HBase" Port="2181" Username="" ServerName="nvnnr2n12.novare.com.hk,nvnnr1n11.novare.com.hk,nvndnr1n13.novare.com.hk" SID="HBase" DbmsId="mysql_id" ProductId="HBASE">
+    <parameters xmi:id="_zB3JsLVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
+    <parameters xmi:id="_zB3JsbVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_zB3JsrVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="nvnnr1n11.novare.com.hk:8030"/>
+    <parameters xmi:id="_zB3Js7VDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_USEKEYTAB" value="false"/>
+    <parameters xmi:id="_zB3JtLVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+    <parameters xmi:id="_zB3JtbVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_REGIONSERVERPRINCIPAL" value="hbase/_HOST@NOVARE.COM.HK"/>
+    <parameters xmi:id="_zB3JtrVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://nvnnr1n11.novare.com.hk:8020"/>
+    <parameters xmi:id="_zB3Jt7VDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_USERNAME" value=""/>
+    <parameters xmi:id="_zB3JuLVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_7zVb0LVCEeeUVf-uyG-Vgg"/>
+    <parameters xmi:id="_zB3JubVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@NOVARE.COM.HK"/>
+    <parameters xmi:id="_zB3JurVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_10"/>
+    <parameters xmi:id="_zB3Ju7VDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="nvnnr1n11.novare.com.hk:8032"/>
+    <parameters xmi:id="_zB3JvLVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="nvnnr2n12.novare.com.hk:10020"/>
+    <parameters xmi:id="_zB3JvbVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_10"/>
+    <parameters xmi:id="_zB3JvrVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_HBASE_ZNODE_PARENT" value="/hbase"/>
+    <parameters xmi:id="_zB3Jv7VDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_zB3JwLVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_DB_SERVER" value="nvnnr2n12.novare.com.hk,nvnnr1n11.novare.com.hk,nvndnr1n13.novare.com.hk"/>
+    <parameters xmi:id="_zB3JwbVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
+    <parameters xmi:id="_zB3JwrVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_zB3Jw7VDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@NOVARE.COM.HK"/>
+    <parameters xmi:id="_zB3JxLVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_zB3JxbVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDH5_10"/>
+    <parameters xmi:id="_zB3JxrVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_zB3Jx7VDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_MASTERPRINCIPAL" value="hbase/_HOST@NOVARE.COM.HK"/>
+    <parameters xmi:id="_zB3JyLVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_USE_KRB" value="true"/>
+    <parameters xmi:id="_zB3JybVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_zB3JyrVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+    <parameters xmi:id="_zB3Jy7VDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@NOVARE.COM.HK"/>
+    <parameters xmi:id="_zB3JzLVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
+    <parameters xmi:id="_zB3JzbVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_zB3JzrVDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_HBASE_SET_ZNODE_PARENT" value="true"/>
+    <parameters xmi:id="_zB3Jz7VDEeeUVf-uyG-Vgg" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_zB3J0LVDEeeUVf-uyG-Vgg" name="HBase" dataManager="_zB2ioLVDEeeUVf-uyG-Vgg"/>
+</xmi:XMI>

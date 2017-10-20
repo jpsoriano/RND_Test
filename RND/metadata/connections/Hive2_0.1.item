@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_T_6RwLWJEeegfplVZ8NDaQ" name="Hive2" id="_8l2bELWIEeegfplVZ8NDaQ" label="Hive2" dataPackage="_UGkTYLWJEeegfplVZ8NDaQ" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://nvnnr2n12.novare.com.hk:10000/default;principal=hive/_HOST@NOVARE.COM.HK" dbVersionString="STANDALONE" Port="10000" Username="" Password="" ServerName="nvnnr2n12.novare.com.hk" DatasourceName="" FileFieldName="" SID="default" SqlSynthax="SQL Syntax" DbmsId="hive_id" ProductId="HIVE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="default">
+    <taggedValue xmi:id="_T_6RwbWJEeegfplVZ8NDaQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_UAJiULWJEeegfplVZ8NDaQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_UAReILWJEeegfplVZ8NDaQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_UAReIbWJEeegfplVZ8NDaQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_UAReIrWJEeegfplVZ8NDaQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_UAReI7WJEeegfplVZ8NDaQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_UAReJLWJEeegfplVZ8NDaQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_UAReJbWJEeegfplVZ8NDaQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_UBN5ULWJEeegfplVZ8NDaQ" tag="DB ProductName" value="Apache Hive"/>
+    <taggedValue xmi:id="_UBN5UbWJEeegfplVZ8NDaQ" tag="DB ProductVersion" value="1.1.0-cdh5.11.1"/>
+    <parameters xmi:id="_T_6RwrWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_USERNAME" value=""/>
+    <parameters xmi:id="_T_6Rw7WJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
+    <parameters xmi:id="_T_6RxLWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_T_6RxbWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_8"/>
+    <parameters xmi:id="_T_6RxrWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+    <parameters xmi:id="_T_6Rx7WJEeegfplVZ8NDaQ" key="HIVE_SERVER_VERSION" value="HIVE2"/>
+    <parameters xmi:id="_T_6RyLWJEeegfplVZ8NDaQ" key="HIVE_AUTHENTICATION_HIVEPRINCIPLA" value="hive/_HOST@NOVARE.COM.HK"/>
+    <parameters xmi:id="_T_6RybWJEeegfplVZ8NDaQ" key="HIVE_AUTHENTICATION_METASTOREURL" value=""/>
+    <parameters xmi:id="_T_6RyrWJEeegfplVZ8NDaQ" key="HIVE_AUTHENTICATION_DRIVERCLASS" value=""/>
+    <parameters xmi:id="_T_6Ry7WJEeegfplVZ8NDaQ" key="HIVE_AUTHENTICATION_USERNAME" value=""/>
+    <parameters xmi:id="_T_6RzLWJEeegfplVZ8NDaQ" key="HIVE_AUTHENTICATION_PASSWORD" value=""/>
+    <parameters xmi:id="_T_6RzbWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_HIVE_ADDITIONAL_JDBC_SETTINGS" value=""/>
+    <parameters xmi:id="_T_6RzrWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="ttableau/nvenr2n15.novare.com.hk@NOVARE.COM.HK"/>
+    <parameters xmi:id="_T_6Rz7WJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_KEYTAB" value="C:/winnt/ttableau.keytab"/>
+    <parameters xmi:id="_T_6R0LWJEeegfplVZ8NDaQ" key="HIVE_EXECUTION_ENGINE"/>
+    <parameters xmi:id="_T_6R0bWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_T_6R0rWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_USE_SSL" value="false"/>
+    <parameters xmi:id="_T_6R07WJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://192.168.1.11:8020"/>
+    <parameters xmi:id="_T_6R1LWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="nvnnr1n11:8032"/>
+    <parameters xmi:id="_T_6R1bWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="nvnnr1n11:8030"/>
+    <parameters xmi:id="_T_6R1rWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_USEKEYTAB" value="true"/>
+    <parameters xmi:id="_T_6R17WJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="false"/>
+    <parameters xmi:id="_T_6R2LWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_uG0MILO7EeeMVchsBdwKnQ"/>
+    <parameters xmi:id="_T_6R2bWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="&quot;yarn/nvnnr2n12.novare.com.hk@NOVARE.COM.HK&quot;"/>
+    <parameters xmi:id="_T_6R2rWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_8"/>
+    <parameters xmi:id="_T_6R27WJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="nvnnr1n11:10020"/>
+    <parameters xmi:id="_T_6R3LWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="false"/>
+    <parameters xmi:id="_T_6R3bWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_DB_SERVER" value="192.168.1.11"/>
+    <parameters xmi:id="_T_6R3rWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_T_6R37WJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="&quot;yarn/nvnnr1n11.novare.com.hk@NOVARE.COM.HK&quot;"/>
+    <parameters xmi:id="_T_6R4LWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDH5_8"/>
+    <parameters xmi:id="_T_6R4bWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_T_6R4rWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_USE_KRB" value="true"/>
+    <parameters xmi:id="_T_6R47WJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_T_6R5LWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+    <parameters xmi:id="_T_6R5bWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="&quot;hdfs/nvnnr1n11.novare.com.hk@NOVARE.COM.HK&quot;"/>
+    <parameters xmi:id="_T_6R5rWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_T_6R57WJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_T_6R6LWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
+    <parameters xmi:id="_T_6R6bWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_UGkTYLWJEeegfplVZ8NDaQ" name="default" dataManager="_T_6RwLWJEeegfplVZ8NDaQ"/>
+</xmi:XMI>

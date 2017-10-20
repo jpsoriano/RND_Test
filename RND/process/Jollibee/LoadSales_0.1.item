@@ -2,7 +2,7 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="JollBrSales_Encoding" prompt="JollBrSales_Encoding?" promptNeeded="false" repositoryContextId="_I9GAYLMfEeei0OEA1QVWWw" type="id_String" value="US-ASCII"/>
-    <contextParameter comment="" name="JollBrSales_File" prompt="JollBrSales_File?" promptNeeded="false" repositoryContextId="_I9GAYLMfEeei0OEA1QVWWw" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Tasks/Jollibee Unstructured/JollBrSales.csv"/>
+    <contextParameter comment="" name="JollBrSales_File" prompt="JollBrSales_File?" promptNeeded="false" repositoryContextId="_I9GAYLMfEeei0OEA1QVWWw" type="id_File" value="C:/Users/Administrator/Desktop/Source Files/JollBrSales.csv"/>
     <contextParameter comment="" name="JollBrSales_RowSeparator" prompt="JollBrSales_RowSeparator?" promptNeeded="false" repositoryContextId="_I9GAYLMfEeei0OEA1QVWWw" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="JollBrSales_FieldSeparator" prompt="JollBrSales_FieldSeparator?" promptNeeded="false" repositoryContextId="_I9GAYLMfEeei0OEA1QVWWw" type="id_String" value="&quot;,&quot;"/>
   </context>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_KqANILWbEeepA606b59bjg" comment="connectionComment" label="connectionLabel" dataPackage="_KqANIbWbEeepA606b59bjg"/>
+  <TalendMetadata:GenericPackage xmi:id="_KqANIbWbEeepA606b59bjg" dataManager="_KqANILWbEeepA606b59bjg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_KqANIrWbEeepA606b59bjg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KqANI7WbEeepA606b59bjg" name="Location" id="331" label="Location" length="45" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_KqANJLWbEeepA606b59bjg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KqANJbWbEeepA606b59bjg" name="Population" id="332" label="Population" length="10" sourceType="VARCHAR" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_KqANJrWbEeepA606b59bjg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KqANJ7WbEeepA606b59bjg" name="LandArea" id="333" label="LandArea" length="20" sourceType="VARCHAR" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_KqANKLWbEeepA606b59bjg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KqANKbWbEeepA606b59bjg" name="PopulationDensity" id="334" label="PopulationDensity" length="20" sourceType="VARCHAR" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_KqANKrWbEeepA606b59bjg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

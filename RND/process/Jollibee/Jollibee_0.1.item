@@ -2,21 +2,21 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="JollBrFull_Encoding" prompt="JollBrFull_Encoding?" promptNeeded="false" repositoryContextId="_Lqbl0LMeEeei0OEA1QVWWw" type="id_String" value="UTF-8"/>
-    <contextParameter comment="" name="JollBrFull_File" prompt="JollBrFull_File?" promptNeeded="false" repositoryContextId="_Lqbl0LMeEeei0OEA1QVWWw" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Tasks/Jollibee Unstructured/JollBrFull.csv"/>
+    <contextParameter comment="" name="JollBrFull_File" prompt="JollBrFull_File?" promptNeeded="false" repositoryContextId="_Lqbl0LMeEeei0OEA1QVWWw" type="id_File" value="C:/Users/Administrator/Desktop/Source Files/JollBrFull.csv"/>
     <contextParameter comment="" name="JollBrFull_RowSeparator" prompt="JollBrFull_RowSeparator?" promptNeeded="false" repositoryContextId="_Lqbl0LMeEeei0OEA1QVWWw" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="JollBrFull_FieldSeparator" prompt="JollBrFull_FieldSeparator?" promptNeeded="false" repositoryContextId="_Lqbl0LMeEeei0OEA1QVWWw" type="id_String" value="&quot;,&quot;"/>
     <contextParameter comment="" name="JollBrFull_Header" prompt="JollBrFull_Header?" promptNeeded="false" repositoryContextId="_Lqbl0LMeEeei0OEA1QVWWw" type="id_Integer" value="1"/>
-    <contextParameter comment="" name="JollBrSales_File" prompt="JollBrSales_File?" promptNeeded="false" repositoryContextId="_I9GAYLMfEeei0OEA1QVWWw" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Tasks/Jollibee Unstructured/JollBrSales.csv"/>
+    <contextParameter comment="" name="JollBrSales_File" prompt="JollBrSales_File?" promptNeeded="false" repositoryContextId="_I9GAYLMfEeei0OEA1QVWWw" type="id_File" value="C:/Users/Administrator/Desktop/Source Files/JollBrSales.csv"/>
     <contextParameter comment="" name="JollBrSales_RowSeparator" prompt="JollBrSales_RowSeparator?" promptNeeded="false" repositoryContextId="_I9GAYLMfEeei0OEA1QVWWw" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="JollBrSales_FieldSeparator" prompt="JollBrSales_FieldSeparator?" promptNeeded="false" repositoryContextId="_I9GAYLMfEeei0OEA1QVWWw" type="id_String" value="&quot;,&quot;"/>
     <contextParameter comment="" name="JollBrSales_Encoding" prompt="JollBrSales_Encoding?" promptNeeded="false" repositoryContextId="_I9GAYLMfEeei0OEA1QVWWw" type="id_String" value="US-ASCII"/>
     <contextParameter comment="" name="JollOrder2_RowSeparator" prompt="JollOrder2_RowSeparator?" promptNeeded="false" repositoryContextId="_n_Rw8LMdEeei0OEA1QVWWw" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="JollOrder2_Encoding" prompt="JollOrder2_Encoding?" promptNeeded="false" repositoryContextId="_n_Rw8LMdEeei0OEA1QVWWw" type="id_String" value="US-ASCII"/>
     <contextParameter comment="" name="JollOrder2_FieldSeparator" prompt="JollOrder2_FieldSeparator?" promptNeeded="false" repositoryContextId="_n_Rw8LMdEeei0OEA1QVWWw" type="id_String" value="&quot;,&quot;"/>
-    <contextParameter comment="" name="JollOrder2_File" prompt="JollOrder2_File?" promptNeeded="false" repositoryContextId="_n_Rw8LMdEeei0OEA1QVWWw" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Tasks/Jollibee Unstructured/JollOrder2.csv"/>
+    <contextParameter comment="" name="JollOrder2_File" prompt="JollOrder2_File?" promptNeeded="false" repositoryContextId="_n_Rw8LMdEeei0OEA1QVWWw" type="id_File" value="C:/Users/Administrator/Desktop/Source Files/JollOrder2.csv"/>
     <contextParameter comment="" name="JollRecInfo2_Encoding" prompt="JollRecInfo2_Encoding?" promptNeeded="false" repositoryContextId="_8Fjl4LMhEeei0OEA1QVWWw" type="id_String" value="US-ASCII"/>
     <contextParameter comment="" name="JollRecInfo2_FieldSeparator" prompt="JollRecInfo2_FieldSeparator?" promptNeeded="false" repositoryContextId="_8Fjl4LMhEeei0OEA1QVWWw" type="id_String" value="&quot;,&quot;"/>
-    <contextParameter comment="" name="JollRecInfo2_File" prompt="JollRecInfo2_File?" promptNeeded="false" repositoryContextId="_8Fjl4LMhEeei0OEA1QVWWw" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Tasks/Jollibee Unstructured/JollRecInfo2.csv"/>
+    <contextParameter comment="" name="JollRecInfo2_File" prompt="JollRecInfo2_File?" promptNeeded="false" repositoryContextId="_8Fjl4LMhEeei0OEA1QVWWw" type="id_File" value="C:/Users/Administrator/Desktop/Source Files/JollRecInfo2.csv"/>
     <contextParameter comment="" name="JollRecInfo2_RowSeparator" prompt="JollRecInfo2_RowSeparator?" promptNeeded="false" repositoryContextId="_8Fjl4LMhEeei0OEA1QVWWw" type="id_String" value="&quot;\n&quot;"/>
   </context>
   <parameters>

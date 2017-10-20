@@ -431,7 +431,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_JTtPwLVzEeeVt_IEBpECag">
       <baseItem xmi:id="_JTtPwbVzEeeVt_IEBpECag" id="_70XVwLVyEeeVt_IEBpECag" version="0.1" type="job"/>
-      <relatedItems xmi:id="_JTtPwrVzEeeVt_IEBpECag" id="_bbbQwLPLEee5VrhmT5Bg1A" version="Latest" type="property"/>
       <relatedItems xmi:id="_JTtPw7VzEeeVt_IEBpECag" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_JTtPxLVzEeeVt_IEBpECag" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_JTtPxbVzEeeVt_IEBpECag" id="TalendString" version="Latest" type="routine"/>

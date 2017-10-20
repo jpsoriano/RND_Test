@@ -660,7 +660,7 @@
     <elementParameter field="CLOSED_LIST" name="EXECUTION_ENGINE" value="mr" show="false"/>
     <elementParameter field="CLOSED_LIST" name="TARGET" value="TABLE" show="false"/>
     <elementParameter field="TEXT" name="FILEPATH" value="&quot;/user/ttableau/jollibee/Sales.csv&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Sales&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;NationalSum&quot;"/>
     <elementParameter field="LABEL" name="PARQUET_NOTE" value="Parquet is only supported if the distribution uses embedded&#xA;&#x9;&#x9;&#x9;&#x9;Hive version 0.10 or later.&#xA;&#x9;&#x9;&#x9;" show="false"/>
     <elementParameter field="CHECK" name="TARGET_TABLE_IS_A_PARQUET_TABLE" value="false"/>
     <elementParameter field="CLOSED_LIST" name="PARQUET_COMPRESSION" value="UNCOMPRESSED" show="false"/>

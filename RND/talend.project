@@ -354,6 +354,9 @@
       <relatedItems xmi:id="_9aJIMbS2Eee1EoraJTJiWA" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_9aJIMrS2Eee1EoraJTJiWA" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_9aJIM7S2Eee1EoraJTJiWA" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_up8nQLWQEeegfplVZ8NDaQ" id="_Sxr5QLTHEeeBhJzuY6yDuA" version="Latest" type="property"/>
+      <relatedItems xmi:id="_up8nQbWQEeegfplVZ8NDaQ" id="_8l2bELWIEeegfplVZ8NDaQ" version="Latest" type="property"/>
+      <relatedItems xmi:id="_up8nQrWQEeegfplVZ8NDaQ" id="_bbbQwLPLEee5VrhmT5Bg1A" version="Latest" type="property"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_9aJINbS2Eee1EoraJTJiWA">
       <baseItem xmi:id="_9aJINrS2Eee1EoraJTJiWA" id="_MVxiMLR5Eeewvq6Ve5Ih5A" version="0.1" type="job"/>

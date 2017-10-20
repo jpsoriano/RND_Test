@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_AaacILO4EeeMVchsBdwKnQ" name="GenericConnection" id="_0UZskLO3EeeMVchsBdwKnQ" label="GenericConnection" dataPackage="_cd0ZcLSdEeeIt7UIJsbc-g _cd0ZcbSdEeeIt7UIJsbc-g _cd0ZcrSdEeeIt7UIJsbc-g _cd0Zc7SdEeeIt7UIJsbc-g _cd0ZdLSdEeeIt7UIJsbc-g _cd0ZdbSdEeeIt7UIJsbc-g _cd0ZdrSdEeeIt7UIJsbc-g _cd0Zd7SdEeeIt7UIJsbc-g _cd0ZeLSdEeeIt7UIJsbc-g _cd0ZebSdEeeIt7UIJsbc-g _cd0ZerSdEeeIt7UIJsbc-g" DatabaseType="General JDBC" DriverJarPath="mysql-connector-java-5.1.30-bin.jar" DriverClass="com.mysql.jdbc.Driver" URL="jdbc:mysql://localhost:3306/Jollibee" Port="xxxx" Username="root" Password="NZNgK6DuncI=" ServerName="" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="JDBC" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <TalendMetadata:DatabaseConnection xmi:id="_AaacILO4EeeMVchsBdwKnQ" name="GenericConnection" id="_0UZskLO3EeeMVchsBdwKnQ" label="GenericConnection" dataPackage="_iYz2jbV0EeeVt_IEBpECag _iYz2jrV0EeeVt_IEBpECag _iYz2j7V0EeeVt_IEBpECag _iYz2kbV0EeeVt_IEBpECag _iYz2k7V0EeeVt_IEBpECag _iYz2lLV0EeeVt_IEBpECag _iYz2lbV0EeeVt_IEBpECag _iYz2l7V0EeeVt_IEBpECag _iYz2mLV0EeeVt_IEBpECag _iYz2mbV0EeeVt_IEBpECag _iYz2mrV0EeeVt_IEBpECag _iYz2m7V0EeeVt_IEBpECag _cd0ZcLSdEeeIt7UIJsbc-g _cd0ZdbSdEeeIt7UIJsbc-g _cd0ZdrSdEeeIt7UIJsbc-g _cd0ZebSdEeeIt7UIJsbc-g" DatabaseType="General JDBC" DriverJarPath="mariadb-java-client-1.1.7.jar" DriverClass="org.mariadb.jdbc.Driver" URL="jdbc:mariadb://192.168.1.11:3306/talend" Port="xxxx" Username="root" Password="SNsgOBDJ0L0VUDS+60Rhag==" ServerName="" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="JDBC" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_AaacIbO4EeeMVchsBdwKnQ" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_AaacJbO4EeeMVchsBdwKnQ" tag="package filter" value=""/>
     <taggedValue xmi:id="_AaacJrO4EeeMVchsBdwKnQ" tag="Status" value=""/>
@@ -14,15 +14,20 @@
     <taggedValue xmi:id="_AakNIrO4EeeMVchsBdwKnQ" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_boFrULSdEeeIt7UIJsbc-g" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iYz2jbV0EeeVt_IEBpECag" name="amon" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iYz2jrV0EeeVt_IEBpECag" name="db_Talend" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iYz2j7V0EeeVt_IEBpECag" name="hue" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iYz2kbV0EeeVt_IEBpECag" name="metas" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iYz2k7V0EeeVt_IEBpECag" name="mysql2" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iYz2lLV0EeeVt_IEBpECag" name="nav" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iYz2lbV0EeeVt_IEBpECag" name="oozie" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iYz2l7V0EeeVt_IEBpECag" name="rman" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iYz2mLV0EeeVt_IEBpECag" name="scm" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iYz2mbV0EeeVt_IEBpECag" name="sentry" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iYz2mrV0EeeVt_IEBpECag" name="sqoop" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iYz2m7V0EeeVt_IEBpECag" name="talend" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_cd0ZcLSdEeeIt7UIJsbc-g" name="information_schema" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_cd0ZcbSdEeeIt7UIJsbc-g" name="amc" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_cd0ZcrSdEeeIt7UIJsbc-g" name="city_rank" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_cd0Zc7SdEeeIt7UIJsbc-g" name="jollibee" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_cd0ZdLSdEeeIt7UIJsbc-g" name="mncpl_rank" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_cd0ZdbSdEeeIt7UIJsbc-g" name="mysql" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_cd0ZdrSdEeeIt7UIJsbc-g" name="performance_schema" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_cd0Zd7SdEeeIt7UIJsbc-g" name="pop_density" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_cd0ZeLSdEeeIt7UIJsbc-g" name="psa" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_cd0ZebSdEeeIt7UIJsbc-g" name="test" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_cd0ZerSdEeeIt7UIJsbc-g" name="training" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
 </xmi:XMI>

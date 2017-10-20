@@ -133,12 +133,12 @@
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="7AeE30yoksC9aaW3S5uxiQ=="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;RecInfo&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Sales&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  `RecInfo`.`ReceiptNumber`, &#xA;  `RecInfo`.`DateTime`, &#xA;  `RecInfo`.`Branch_ID`, &#xA;  `RecInfo`.`DeliveryLat`, &#xA;  `RecInfo`.`DeliveryLng`&#xA;FROM `RecInfo` LIMIT 1000&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  `Sales`.`Branch_ID`, &#xA;  `Sales`.`Date`, &#xA;  `Sales`.`Sales`, &#xA;  `Sales`.`Profit`, &#xA;  `Sales`.`Temp`&#xA;FROM `Sales` LIMIT 1000&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -149,32 +149,32 @@
     <elementParameter field="CHECK" name="ENABLE_STREAM" value="false" show="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ReceiptNumber"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DateTime"/>
-      <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Branch_ID"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DeliveryLat"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DeliveryLng"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Sales"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Profit"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Temp"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="SalesDB"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="RecInfo" name="tMysqlInput_1">
-      <column comment="" key="false" length="-1" name="ReceiptNumber" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="DateTime" nullable="true" pattern="&quot;yyyy-MM-dd hh:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="Branch_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="18" name="DeliveryLat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="16" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="18" name="DeliveryLng" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="15" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
+    <metadata connector="FLOW" label="Sales" name="tMysqlInput_1">
+      <column comment="" key="false" length="1" name="Branch_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="Sales" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="7" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="Profit" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="Temp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/talendteam/Desktop/Out/RecInfo.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/talendteam/Desktop/Out/Sales.csv&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
@@ -199,14 +199,14 @@
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
     <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="RecInfo.csv"/>
+    <elementParameter field="TEXT" name="LABEL" value="Sales.csv"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="RecInfo" name="tFileOutputDelimited_1">
-      <column comment="" key="false" length="-1" name="ReceiptNumber" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="19" name="DateTime" nullable="true" pattern="&quot;yyyy-MM-dd hh:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="Branch_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="18" name="DeliveryLat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="16" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="18" name="DeliveryLng" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="15" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
+    <metadata connector="FLOW" label="Sales" name="tFileOutputDelimited_1">
+      <column comment="" key="false" length="1" name="Branch_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="Sales" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="7" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="Profit" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="Temp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tHDFSPut" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="192">

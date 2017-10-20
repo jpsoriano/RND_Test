@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_etha4LVQEeeSqvYxDVbO6g" DatabaseType="Hive" URL="jdbc:hive2://nvnnr1n11.novare.com.hk:10000/default;principal=hive/_HOST@NOVARE.COM.HK" Port="10000" Username="" ServerName="nvnnr1n11.novare.com.hk" SID="default" DbmsId="hive_id" ProductId="HIVE">
+  <parameters xmi:id="_etha4bVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+  <parameters xmi:id="_etha4rVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="nvnnr1n11.novare.com.hk:8030"/>
+  <parameters xmi:id="_etha47VQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_USEKEYTAB" value="true"/>
+  <parameters xmi:id="_etha5LVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+  <parameters xmi:id="_etha5bVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://nvnnr1n11.novare.com.hk:8020"/>
+  <parameters xmi:id="_etha5rVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_USERNAME" value=""/>
+  <parameters xmi:id="_etha57VQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_GmDroLVQEeeSqvYxDVbO6g"/>
+  <parameters xmi:id="_etha6LVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@NOVARE.COM.HK"/>
+  <parameters xmi:id="_etha6bVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_10"/>
+  <parameters xmi:id="_etha6rVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="nvnnr1n11.novare.com.hk:8032"/>
+  <parameters xmi:id="_etha67VQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="nvnnr2n12.novare.com.hk:10020"/>
+  <parameters xmi:id="_etha7LVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_10"/>
+  <parameters xmi:id="_etha7bVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+  <parameters xmi:id="_etha7rVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_DB_SERVER" value="nvnnr1n11.novare.com.hk"/>
+  <parameters xmi:id="_etha77VQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
+  <parameters xmi:id="_etha8LVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_etha8bVQEeeSqvYxDVbO6g" key="HIVE_AUTHENTICATION_HIVEPRINCIPLA" value="hive/_HOST@NOVARE.COM.HK"/>
+  <parameters xmi:id="_etha8rVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@NOVARE.COM.HK"/>
+  <parameters xmi:id="_etha87VQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA"/>
+  <parameters xmi:id="_etha9LVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDH5_10"/>
+  <parameters xmi:id="_etha9bVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="ttableau/nvenr2n15.novare.com.hk@NOVARE.COM.HK"/>
+  <parameters xmi:id="_etha9rVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA"/>
+  <parameters xmi:id="_etha97VQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_USE_KRB" value="true"/>
+  <parameters xmi:id="_etha-LVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA"/>
+  <parameters xmi:id="_etha-bVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+  <parameters xmi:id="_etha-rVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@NOVARE.COM.HK"/>
+  <parameters xmi:id="_etha-7VQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE"/>
+  <parameters xmi:id="_etha_LVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_KEYTAB" value="C:/Users/Administrator/Documents/ttableau.keytab"/>
+  <parameters xmi:id="_etha_bVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_etha_rVQEeeSqvYxDVbO6g" key="HIVE_AUTHENTICATION_METASTOREURL" value="thrift://nvnenr1n14.novare.com.hk:9083"/>
+  <parameters xmi:id="_etha_7VQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_ethbALVQEeeSqvYxDVbO6g" key="HIVE_SERVER_VERSION" value="HIVE2"/>
+  <parameters xmi:id="_ethbAbVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+</TalendMetadata:DatabaseConnection>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_CUD9QLWYEeeBpuMEmfKwKA" comment="connectionComment" label="connectionLabel" dataPackage="_CUD9QbWYEeeBpuMEmfKwKA"/>
+  <TalendMetadata:GenericPackage xmi:id="_CUD9QbWYEeeBpuMEmfKwKA" dataManager="_CUD9QLWYEeeBpuMEmfKwKA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_CUD9QrWYEeeBpuMEmfKwKA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CUD9Q7WYEeeBpuMEmfKwKA" name="CODE" id="597" label="CODE" length="9" sourceType="VARCHAR" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_CUD9RLWYEeeBpuMEmfKwKA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CUD9RbWYEeeBpuMEmfKwKA" name="REGION" id="598" label="REGION" length="43" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_CUD9RrWYEeeBpuMEmfKwKA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CUD9R7WYEeeBpuMEmfKwKA" name="PROV" id="599" label="PROV" length="2" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_CUD9SLWYEeeBpuMEmfKwKA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CUD9SbWYEeeBpuMEmfKwKA" name="CITIES" id="600" label="CITIES" length="3" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_CUD9SrWYEeeBpuMEmfKwKA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CUD9S7WYEeeBpuMEmfKwKA" name="MUN" id="601" label="MUN" length="4" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_CUD9TLWYEeeBpuMEmfKwKA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CUD9TbWYEeeBpuMEmfKwKA" name="BGY" id="602" label="BGY" length="5" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_CUD9TrWYEeeBpuMEmfKwKA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CUD9T7WYEeeBpuMEmfKwKA" name="POPULATION" id="603" label="POPULATION" length="9" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_CUD9ULWYEeeBpuMEmfKwKA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

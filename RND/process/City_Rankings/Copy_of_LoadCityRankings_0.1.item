@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="City_Rank_2014_File" prompt="City_Rank_2014_File?" promptNeeded="false" repositoryContextId="_4OtHQLRtEeewvq6Ve5Ih5A" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Tasks/Online Data Extracts/rankings_cities_2014.csv"/>
+    <contextParameter comment="" name="City_Rank_2014_File" prompt="City_Rank_2014_File?" promptNeeded="false" repositoryContextId="_4OtHQLRtEeewvq6Ve5Ih5A" type="id_File" value="C:/Users/talendteam/Desktop/Source Files/rankings_cities_2014.csv"/>
     <contextParameter comment="" name="City_Rank_2014_Encoding" prompt="City_Rank_2014_Encoding?" promptNeeded="false" repositoryContextId="_4OtHQLRtEeewvq6Ve5Ih5A" type="id_String" value="US-ASCII"/>
     <contextParameter comment="" name="City_Rank_2014_RowSeparator" prompt="City_Rank_2014_RowSeparator?" promptNeeded="false" repositoryContextId="_4OtHQLRtEeewvq6Ve5Ih5A" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="City_Rank_2014_Header" prompt="City_Rank_2014_Header?" promptNeeded="false" repositoryContextId="_4OtHQLRtEeewvq6Ve5Ih5A" type="id_Integer" value="1"/>
@@ -250,7 +250,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_rr__MLRuEeewvq6Ve5Ih5A-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_phfsULS3Eee1EoraJTJiWA-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>

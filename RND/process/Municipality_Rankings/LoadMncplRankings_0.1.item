@@ -15,7 +15,7 @@
     <contextParameter comment="" name="Mncpl_Rank_2016_Header" prompt="Mncpl_Rank_2016_Header?" promptNeeded="false" repositoryContextId="_io3x0LRuEeewvq6Ve5Ih5A" type="id_Integer" value="1"/>
     <contextParameter comment="" name="Mncpl_Rank_2016_FieldSeparator" prompt="Mncpl_Rank_2016_FieldSeparator?" promptNeeded="false" repositoryContextId="_io3x0LRuEeewvq6Ve5Ih5A" type="id_String" value="&quot;,&quot;"/>
     <contextParameter comment="" name="Mncpl_Rank_2016_RowSeparator" prompt="Mncpl_Rank_2016_RowSeparator?" promptNeeded="false" repositoryContextId="_io3x0LRuEeewvq6Ve5Ih5A" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="Mncpl_Rank_2016_File" prompt="Mncpl_Rank_2016_File?" promptNeeded="false" repositoryContextId="_io3x0LRuEeewvq6Ve5Ih5A" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Tasks/Online Data Extracts/rankings_municipalities_2016.csv"/>
+    <contextParameter comment="" name="Mncpl_Rank_2016_File" prompt="Mncpl_Rank_2016_File?" promptNeeded="false" repositoryContextId="_io3x0LRuEeewvq6Ve5Ih5A" type="id_File" value="C:/Users/talendteam/Desktop/Source Files/rankings_municipalities_2016.csv"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>

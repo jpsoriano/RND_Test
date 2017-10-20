@@ -3,7 +3,7 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="Population_Density_LastColumn" prompt="Population_Density_LastColumn?" promptNeeded="false" repositoryContextId="__R-AALP8EeeNX9MyGyWy1w" type="id_Integer" value=""/>
     <contextParameter comment="" name="Population_Density_Encoding" prompt="Population_Density_Encoding?" promptNeeded="false" repositoryContextId="__R-AALP8EeeNX9MyGyWy1w" type="id_String" value="UTF-8"/>
-    <contextParameter comment="" name="Population_Density_File" prompt="Population_Density_File?" promptNeeded="false" repositoryContextId="__R-AALP8EeeNX9MyGyWy1w" type="id_File" value="C:/Users/Administrator/Desktop/Source Files/2015 Population Density_web.xlsx"/>
+    <contextParameter comment="" name="Population_Density_File" prompt="Population_Density_File?" promptNeeded="false" repositoryContextId="__R-AALP8EeeNX9MyGyWy1w" type="id_File" value="C:/Users/talendteam/Desktop/Source Files/2015 Population Density_web.xlsx"/>
     <contextParameter comment="" name="Population_Density_Footer" prompt="Population_Density_Footer?" promptNeeded="false" repositoryContextId="__R-AALP8EeeNX9MyGyWy1w" type="id_Integer" value="26"/>
     <contextParameter comment="" name="Population_Density_FirstColumn" prompt="Population_Density_FirstColumn?" promptNeeded="false" repositoryContextId="__R-AALP8EeeNX9MyGyWy1w" type="id_Integer" value="1"/>
     <contextParameter comment="" name="Population_Density_ThousandSeparator" prompt="Population_Density_ThousandSeparator?" promptNeeded="false" repositoryContextId="__R-AALP8EeeNX9MyGyWy1w" type="id_String" value="','"/>

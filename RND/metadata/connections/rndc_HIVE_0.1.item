@@ -12,7 +12,7 @@
   <parameters xmi:id="_etha6rVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="nvnnr1n11.novare.com.hk:8032"/>
   <parameters xmi:id="_etha67VQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="nvnnr2n12.novare.com.hk:10020"/>
   <parameters xmi:id="_etha7LVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_10"/>
-  <parameters xmi:id="_etha7bVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+  <parameters xmi:id="_etha7bVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="false"/>
   <parameters xmi:id="_etha7rVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_DB_SERVER" value="nvnnr1n11.novare.com.hk"/>
   <parameters xmi:id="_etha77VQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
   <parameters xmi:id="_etha8LVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
@@ -33,4 +33,5 @@
   <parameters xmi:id="_etha_7VQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
   <parameters xmi:id="_ethbALVQEeeSqvYxDVbO6g" key="HIVE_SERVER_VERSION" value="HIVE2"/>
   <parameters xmi:id="_ethbAbVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+  <parameters xmi:id="_gNRg8LVREeeSqvYxDVbO6g" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
 </TalendMetadata:DatabaseConnection>

@@ -16,8 +16,8 @@
     <parameters xmi:id="_etVNrbVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="nvnnr2n12.novare.com.hk:10020"/>
     <parameters xmi:id="_etVNrrVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_10"/>
     <parameters xmi:id="_etVNr7VQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HBASE_ZNODE_PARENT" value="/hbase"/>
-    <parameters xmi:id="_etVNsLVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
-    <parameters xmi:id="_etVNsbVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_DB_SERVER" value="nvnnr2n12.novare.com.hk,nvnnr1n11.novare.com.hk,nvndnr1n13.novare.com.hk"/>
+    <parameters xmi:id="_etVNsLVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="false"/>
+    <parameters xmi:id="_etVNsbVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_DB_SERVER" value="nvnnr1n11.novare.com.hk"/>
     <parameters xmi:id="_etVNsrVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
     <parameters xmi:id="_etVNs7VQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
     <parameters xmi:id="_etVNtLVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@NOVARE.COM.HK"/>
@@ -35,6 +35,7 @@
     <parameters xmi:id="_etVNwLVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
     <parameters xmi:id="_etVNwbVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HBASE_SET_ZNODE_PARENT" value="true"/>
     <parameters xmi:id="_etVNwrVQEeeSqvYxDVbO6g" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_gNBCQLVREeeSqvYxDVbO6g" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_etVNw7VQEeeSqvYxDVbO6g" name="HBase" dataManager="_etVNoLVQEeeSqvYxDVbO6g"/>
 </xmi:XMI>

@@ -814,4 +814,5 @@
     <migrationTask xmi:id="_gANaKLS2Eee1EoraJTJiWA" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_faIQMrS2Eee1EoraJTJiWA" login="admin_rnd@novare.com.hk" firstName="RND" lastName="RND" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_2AuywLU8Eee5SM5iI5Q7xw" login="team_rnd@novare.com.hk" firstName="team" lastName="team" type="MDM" additionnalData="{}"/>
 </xmi:XMI>

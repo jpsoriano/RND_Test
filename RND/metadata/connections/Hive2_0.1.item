@@ -51,6 +51,7 @@
     <parameters xmi:id="_T_6R57WJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
     <parameters xmi:id="_T_6R6LWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
     <parameters xmi:id="_T_6R6bWJEeegfplVZ8NDaQ" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
+    <parameters xmi:id="_kkgDcLWfEeepA606b59bjg" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Schema xmi:id="_UGkTYLWJEeegfplVZ8NDaQ" name="default" dataManager="_T_6RwLWJEeegfplVZ8NDaQ"/>
 </xmi:XMI>

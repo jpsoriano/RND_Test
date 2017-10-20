@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="NationalSum_File" prompt="NationalSum_File?" promptNeeded="false" repositoryContextId="_Bc2Q0LR5Eeewvq6Ve5Ih5A" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Tasks/PSGC Publication MAR2017.xlsx"/>
+    <contextParameter comment="" name="NationalSum_File" prompt="NationalSum_File?" promptNeeded="false" repositoryContextId="_Bc2Q0LR5Eeewvq6Ve5Ih5A" type="id_File" value="C:/Users/talendteam/Desktop/Source Files/PSGC Publication MAR2017.xlsx"/>
     <contextParameter comment="" name="NationalSum_Encoding" prompt="NationalSum_Encoding?" promptNeeded="false" repositoryContextId="_Bc2Q0LR5Eeewvq6Ve5Ih5A" type="id_String" value="UTF-8"/>
     <contextParameter comment="" name="NationalSum_Header" prompt="NationalSum_Header?" promptNeeded="false" repositoryContextId="_Bc2Q0LR5Eeewvq6Ve5Ih5A" type="id_Integer" value="10"/>
     <contextParameter comment="" name="NationalSum_LastColumn" prompt="NationalSum_LastColumn?" promptNeeded="false" repositoryContextId="_Bc2Q0LR5Eeewvq6Ve5Ih5A" type="id_Integer" value=""/>
@@ -272,7 +272,7 @@
       <column comment="" key="false" length="0" name="Column10" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="WithCode" expressionFilter="row1.CODE != null" activateExpressionFilter="true">
         <mapperTableEntries name="CODE" expression="row1.CODE " type="id_String" nullable="true"/>
@@ -324,7 +324,7 @@
       <column comment="" key="false" length="9" name="POPULATION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="Out">
         <mapperTableEntries name="CODE" expression="Integer.valueOf(WithCode.CODE) " type="id_Integer" nullable="true"/>

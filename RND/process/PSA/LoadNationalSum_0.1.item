@@ -317,7 +317,7 @@
     <metadata connector="FLOW" name="Out">
       <column comment="" key="false" length="9" name="CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="43" name="REGION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="PROV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="PROV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="CITIES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="MUN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="BGY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
@@ -329,7 +329,7 @@
       <outputTables sizeState="INTERMEDIATE" name="Out">
         <mapperTableEntries name="CODE" expression="Integer.valueOf(WithCode.CODE) " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="REGION" expression="WithCode.REGION " type="id_String" nullable="true"/>
-        <mapperTableEntries name="PROV" expression="( WithCode.PROV_ == &quot;-&quot;) ? 0:Integer.valueOf(WithCode.PROV_) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="PROV" expression="WithCode.PROV_ " type="id_String" nullable="true"/>
         <mapperTableEntries name="CITIES" expression="WithCode.CITIES " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="MUN" expression="WithCode.MUN_ " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="BGY" expression="WithCode.BGY_ " type="id_Integer" nullable="true"/>
@@ -385,7 +385,7 @@
     <metadata connector="FLOW" name="tLogRow_1">
       <column comment="" key="false" length="9" name="CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="43" name="REGION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="PROV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="PROV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="CITIES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="MUN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="BGY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>

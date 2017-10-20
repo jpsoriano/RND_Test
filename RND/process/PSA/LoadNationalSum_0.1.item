@@ -324,7 +324,7 @@
       <column comment="" key="false" length="9" name="POPULATION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="Out">
         <mapperTableEntries name="CODE" expression="Integer.valueOf(WithCode.CODE) " type="id_Integer" nullable="true"/>

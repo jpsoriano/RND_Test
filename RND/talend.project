@@ -129,6 +129,8 @@
       <relatedItems xmi:id="_9aJHWbS2Eee1EoraJTJiWA" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_9aJHWrS2Eee1EoraJTJiWA" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_9aJHW7S2Eee1EoraJTJiWA" id="_EmqMwLP9EeeNX9MyGyWy1w - Population_Density" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_HcNbcLWbEeepA606b59bjg" id="_8l2bELWIEeegfplVZ8NDaQ" version="Latest" type="property"/>
+      <relatedItems xmi:id="_HcNbcbWbEeepA606b59bjg" id="_bbbQwLPLEee5VrhmT5Bg1A" version="Latest" type="property"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_9aJHXLS2Eee1EoraJTJiWA">
       <baseItem xmi:id="_9aJHXbS2Eee1EoraJTJiWA" id="_rr__MLRuEeewvq6Ve5Ih5A" version="0.1" type="job"/>

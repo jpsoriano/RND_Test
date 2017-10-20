@@ -326,7 +326,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="Out">
+      <outputTables sizeState="INTERMEDIATE" name="Out" expressionFilter="WithCode.PROV_ != &quot;-&quot;" activateExpressionFilter="true">
         <mapperTableEntries name="CODE" expression="Integer.valueOf(WithCode.CODE) " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="REGION" expression="WithCode.REGION " type="id_String" nullable="true"/>
         <mapperTableEntries name="PROV" expression="( WithCode.PROV_ == &quot;-&quot;) ? 0 : Integer.valueOf(WithCode.PROV_) " type="id_Integer" nullable="true"/>

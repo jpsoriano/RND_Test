@@ -409,7 +409,7 @@
     <elementParameter field="CHECK" name="USE_KRB" value="true"/>
     <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;hdfs/nvnnr1n11.novare.com.hk@NOVARE.COM.HK&quot;"/>
     <elementParameter field="CHECK" name="USE_KEYTAB" value="true"/>
-    <elementParameter field="TEXT" name="PRINCIPAL" value="&quot;ttableau/nvenr2n15.novare.com.hk@NOVARE.COM.HK&quot;"/>
+    <elementParameter field="TEXT" name="PRINCIPAL" value="&quot;mlaserna@NOVARE.COM.HK&quot;"/>
     <elementParameter field="FILE" name="KEYTAB_PATH" value="&quot;C:/winnt/ttableau.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
     <elementParameter field="TEXT" name="USERNAME" value="&quot;anonymous&quot;" show="false"/>
@@ -473,7 +473,7 @@
     <elementParameter field="TEXT" name="METASTORE_USERNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" value="0RMsyjmybrE=" show="false"/>
     <elementParameter field="CHECK" name="USE_KEYTAB" value="true"/>
-    <elementParameter field="TEXT" name="PRINCIPAL" value="&quot;ttableau/nvenr2n15.novare.com.hk@NOVARE.COM.HK&quot;"/>
+    <elementParameter field="TEXT" name="PRINCIPAL" value="&quot;mlaserna@NOVARE.COM.HK&quot;"/>
     <elementParameter field="FILE" name="KEYTAB_PATH" value="&quot;C:/winnt/ttableau.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
     <elementParameter field="TEXT" name="MAPRTICKET_USERNAME" value="&quot;&quot;" show="false"/>
@@ -618,7 +618,7 @@
     <elementParameter field="TEXT" name="METASTORE_USERNAME" value="&quot;hive&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" value="SsYyuEyMCHg=" show="false"/>
     <elementParameter field="CHECK" name="USE_KEYTAB" value="true"/>
-    <elementParameter field="TEXT" name="PRINCIPAL" value="&quot;ttableau/nvenr2n15.novare.com.hk@NOVARE.COM.HK&quot;"/>
+    <elementParameter field="TEXT" name="PRINCIPAL" value="&quot;mlaserna@NOVARE.COM.HK&quot;"/>
     <elementParameter field="FILE" name="KEYTAB_PATH" value="&quot;C:/winnt/ttableau.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
     <elementParameter field="TEXT" name="MAPRTICKET_USERNAME" value="&quot;&quot;" show="false"/>

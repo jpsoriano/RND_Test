@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.rules:MatchRuleDefinition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.rules="http://dataquality.rules" xmi:id="_2X3HELeyEeecW_nnQdNdqA" name="sample match">
+  <taggedValue xmi:id="_2X3HEbeyEeecW_nnQdNdqA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_2X3HEreyEeecW_nnQdNdqA" tag="Author" value="team_rnd@novare.com.hk"/>
+  <taggedValue xmi:id="_2X3HE7eyEeecW_nnQdNdqA" tag="Purpose"/>
+  <taggedValue xmi:id="_2X3HFLeyEeecW_nnQdNdqA" tag="Description"/>
+  <taggedValue xmi:id="_2X3HFbeyEeecW_nnQdNdqA" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_2X3HFreyEeecW_nnQdNdqA" tag="Validation_Status" value="true"/>
+</dataquality.rules:MatchRuleDefinition>

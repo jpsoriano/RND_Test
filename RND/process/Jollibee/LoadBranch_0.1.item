@@ -194,7 +194,7 @@
       <column comment="" key="false" length="22" name="Branch_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="82" name="Branch_Location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="Latitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="11" name="Longtitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="Longtitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="Zone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="11" name="City_Province" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
@@ -206,7 +206,7 @@
         <mapperTableEntries name="Branch_Name" expression="row1.Branch_Name " type="id_String" nullable="true"/>
         <mapperTableEntries name="Branch_Location" expression="row1.Branch_Location " type="id_String" nullable="true"/>
         <mapperTableEntries name="Latitude" expression="row1.Latitude " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="Longtitude" expression="row1.Longtitude " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Longtitude" expression="row1.Longtitude " type="id_Double" nullable="true"/>
         <mapperTableEntries name="Zone" expression="row1.Zone " type="id_String" nullable="true"/>
         <mapperTableEntries name="City_Province" expression="row1.City_Province " type="id_String" nullable="true"/>
       </outputTables>
@@ -257,7 +257,7 @@
       <column comment="" key="false" length="22" name="Branch_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="82" name="Branch_Location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="Latitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="11" name="Longtitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="Longtitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="Zone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="11" name="City_Province" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>

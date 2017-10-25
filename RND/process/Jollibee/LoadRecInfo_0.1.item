@@ -185,7 +185,7 @@
     <metadata connector="FLOW" name="Out">
       <column comment="" key="false" length="-1" name="ReceiptNumber" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="Date" nullable="true" pattern="&quot;MMMM dd, yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Time" nullable="true" pattern="&quot; hh:mm a&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Time" nullable="true" pattern="&quot;hh:mm a&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="Branch_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="18" name="DeliveryLat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="16" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="18" name="DeliveryLng" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="15" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
@@ -244,7 +244,7 @@
     <metadata connector="FLOW" name="tFileOutputDelimited_1">
       <column comment="" key="false" length="-1" name="ReceiptNumber" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="19" name="Date" nullable="true" pattern="&quot;MMMM dd, yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Time" nullable="true" pattern="&quot; hh:mm a&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Time" nullable="true" pattern="&quot;hh:mm a&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="Branch_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="18" name="DeliveryLat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="16" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="18" name="DeliveryLng" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="15" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>

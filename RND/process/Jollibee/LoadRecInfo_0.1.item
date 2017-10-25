@@ -196,8 +196,8 @@
         <mapperTableEntries name="ReceiptNumber" expression="row1.ReceiptNumber " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="DateTime" expression="row1.DateTime " type="id_Date" nullable="true"/>
         <mapperTableEntries name="Branch_ID" expression="row1.Branch_ID " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="DeliveryLat" expression="row1.DeliveryLat " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="DeliveryLng" expression="row1.DeliveryLng " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="DeliveryLat" expression="Float.valueOf(String.format(&quot;%.4f&quot;, row1.DeliveryLat)) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="DeliveryLng" expression="Float.valueOf(String.format(&quot;%.4f&quot;, row1.DeliveryLng)) " type="id_Float" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="ReceiptNumber" type="id_Integer" nullable="true"/>

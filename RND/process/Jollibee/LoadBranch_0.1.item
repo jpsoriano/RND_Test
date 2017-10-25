@@ -201,7 +201,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="Out">
+      <outputTables sizeState="INTERMEDIATE" name="Out" expressionFilter="&quot;Manila&quot;.equals(row1.City_Province )" activateExpressionFilter="true">
         <mapperTableEntries name="Branch_id" expression="row1.Branch_id " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="Branch_Name" expression="row1.Branch_Name " type="id_String" nullable="true"/>
         <mapperTableEntries name="Branch_Location" expression="row1.Branch_Location " type="id_String" nullable="true"/>

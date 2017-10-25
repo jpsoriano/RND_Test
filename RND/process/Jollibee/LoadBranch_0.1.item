@@ -205,7 +205,7 @@
         <mapperTableEntries name="Branch_id" expression="row1.Branch_id " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="Branch_Name" expression="row1.Branch_Name " type="id_String" nullable="true"/>
         <mapperTableEntries name="Branch_Location" expression="row1.Branch_Location " type="id_String" nullable="true"/>
-        <mapperTableEntries name="Latitude" expression="Float.valueOf(String.format(&quot;%.4f&quot;, row1.Latitude))" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Latitude" expression="row1.Latitude " type="id_Float" nullable="true"/>
         <mapperTableEntries name="Longtitude" expression="Float.valueOf(String.format(&quot;%.4f&quot;, row1.Longtitude))" type="id_Float" nullable="true"/>
         <mapperTableEntries name="Zone" expression="row1.Zone " type="id_String" nullable="true"/>
         <mapperTableEntries name="City_Province" expression="row1.City_Province " type="id_String" nullable="true"/>

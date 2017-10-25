@@ -195,7 +195,7 @@
       <outputTables sizeState="INTERMEDIATE" name="Out">
         <mapperTableEntries name="Branch_ID" expression="row1.Branch_ID " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="Date" expression="row1.Date " type="id_Date" nullable="true"/>
-        <mapperTableEntries name="Sales" expression="(new DecimalFormat(&quot;0.00&quot;)).format(row1.Profit) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="Sales" expression="Float.valueOf(String.format(&quot;%.2f&quot;, row1.Sales)) " type="id_Float" nullable="true"/>
         <mapperTableEntries name="Profit" expression="row1.Profit " type="id_Double" nullable="true"/>
         <mapperTableEntries name="TempFahr" expression="(row1.Temp * 9/5) + 32 " type="id_Integer" nullable="true"/>
       </outputTables>

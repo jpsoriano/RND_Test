@@ -23,7 +23,7 @@
     <parameters xmi:id="_Lf4yW7SVEeeIt7UIJsbc-g" key="HIVE_AUTHENTICATION_USERNAME" value=""/>
     <parameters xmi:id="_Lf4yXLSVEeeIt7UIJsbc-g" key="HIVE_AUTHENTICATION_PASSWORD" value=""/>
     <parameters xmi:id="_Lf4yXbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_HIVE_ADDITIONAL_JDBC_SETTINGS" value=""/>
-    <parameters xmi:id="_Lf4yXrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="mlaserna@NOVARE.COM.HK"/>
+    <parameters xmi:id="_Lf4yXrSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="krbtgt/NOVARE.COM.HK@NOVARE.COM.HK"/>
     <parameters xmi:id="_Lf4yX7SVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_KEYTAB" value="C:/winnt/ttableau.keytab"/>
     <parameters xmi:id="_Lf4yYLSVEeeIt7UIJsbc-g" key="HIVE_EXECUTION_ENGINE"/>
     <parameters xmi:id="_Lf4yYbSVEeeIt7UIJsbc-g" key="CONN_PARA_KEY_USE_YARN" value="true"/>

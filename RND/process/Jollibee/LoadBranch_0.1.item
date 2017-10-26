@@ -515,18 +515,18 @@
     <elementParameter field="TEXT" name="S3_USERNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="S3_PASSWORD" value="0RMsyjmybrE=" show="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="hive_id" show="false"/>
-    <elementParameter field="CHECK" name="SET_ROW_FORMAT" value="false"/>
-    <elementParameter field="CHECK" name="SET_FIELD_TERMINATED_BY" value="false" show="false"/>
-    <elementParameter field="TEXT" name="FIELD_TERMINATED_BY" value="&quot;;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="SET_FIELD_ESCAPE_BY" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SET_ROW_FORMAT" value="true"/>
+    <elementParameter field="CHECK" name="SET_FIELD_TERMINATED_BY" value="true"/>
+    <elementParameter field="TEXT" name="FIELD_TERMINATED_BY" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="SET_FIELD_ESCAPE_BY" value="false"/>
     <elementParameter field="TEXT" name="FIELD_ESCAPE_BY" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="SET_COLLECTION_ITEM_TERMINATED_BY" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SET_COLLECTION_ITEM_TERMINATED_BY" value="false"/>
     <elementParameter field="TEXT" name="COLLECTION_ITEM_TERMINATED_BY" value="&quot;\u0002&quot;" show="false"/>
-    <elementParameter field="CHECK" name="SET_MAP_KEY_TERMINATED_BY" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SET_MAP_KEY_TERMINATED_BY" value="false"/>
     <elementParameter field="TEXT" name="MAP_KEY_TERMINATED_BY" value="&quot;\u0003&quot;" show="false"/>
-    <elementParameter field="CHECK" name="SET_LINES_TERMINATED_BY" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SET_LINES_TERMINATED_BY" value="false"/>
     <elementParameter field="TEXT" name="LINES_TERMINATED_BY" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="CHECK" name="SET_SERDE_ROW_FORMAT" value="false"/>
+    <elementParameter field="CHECK" name="SET_SERDE_ROW_FORMAT" value="false" show="false"/>
     <elementParameter field="TEXT" name="SERDE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CHECK" name="LIKE_TABLE" value="false"/>

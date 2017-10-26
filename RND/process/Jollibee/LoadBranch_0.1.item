@@ -412,7 +412,7 @@
       <elementValue elementRef="FILEMASK" value="&quot;Branch.csv&quot;"/>
       <elementValue elementRef="NEWNAME" value="&quot;&quot;"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES">
       <elementValue elementRef="PROPERTY" value="&quot;kerberos.realm&quot;"/>
       <elementValue elementRef="VALUE" value="&quot;NOVARE.COM.HK&quot;"/>

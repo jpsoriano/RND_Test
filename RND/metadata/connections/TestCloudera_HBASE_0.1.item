@@ -34,7 +34,7 @@
     <parameters xmi:id="_0Nyab9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_HBASE_SET_ZNODE_PARENT" value="true"/>
     <parameters xmi:id="_0NyacNEbEeebStWXsXT5rw" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
     <parameters xmi:id="_O0LqINEcEeebStWXsXT5rw" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="mlaserna"/>
-    <parameters xmi:id="_O0LqIdEcEeebStWXsXT5rw" key="CONN_PARA_KEY_KEYTAB" value="C:/Users/Administrator/Documents/mlaserna.keytab"/>
+    <parameters xmi:id="_O0LqIdEcEeebStWXsXT5rw" key="CONN_PARA_KEY_KEYTAB" value="/tmp/mlaserna.keytab"/>
     <parameters xmi:id="_O0M4QNEcEeebStWXsXT5rw" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_0NyacdEbEeebStWXsXT5rw" name="HBase" dataManager="_0NyaUNEbEeebStWXsXT5rw"/>

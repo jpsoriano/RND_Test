@@ -2,7 +2,7 @@
 <TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_0OGjYNEbEeebStWXsXT5rw" DatabaseType="Hive" URL="jdbc:hive2://nvnnr1n11.novare.com.hk:10000/default;principal=hive/_HOST@NOVARE.COM.HK" Port="10000" Username="" ServerName="nvnnr1n11.novare.com.hk" SID="default" DbmsId="hive_id" ProductId="HIVE">
   <parameters xmi:id="_0OGjYdEbEeebStWXsXT5rw" key="CONN_PARA_KEY_USE_YARN" value="true"/>
   <parameters xmi:id="_0OGjYtEbEeebStWXsXT5rw" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="nvnnr1n11.novare.com.hk:8030"/>
-  <parameters xmi:id="_0OGjY9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_USEKEYTAB" value="false"/>
+  <parameters xmi:id="_0OGjY9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_USEKEYTAB" value="true"/>
   <parameters xmi:id="_0OGjZNEbEeebStWXsXT5rw" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
   <parameters xmi:id="_0OGjZdEbEeebStWXsXT5rw" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://nvnnr1n11.novare.com.hk:8020"/>
   <parameters xmi:id="_0OGjZtEbEeebStWXsXT5rw" key="CONN_PARA_KEY_USERNAME" value=""/>
@@ -31,4 +31,7 @@
   <parameters xmi:id="_0OGjfdEbEeebStWXsXT5rw" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
   <parameters xmi:id="_0OGjftEbEeebStWXsXT5rw" key="HIVE_SERVER_VERSION" value="HIVE2"/>
   <parameters xmi:id="_0OGjf9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+  <parameters xmi:id="_O0hoYNEcEeebStWXsXT5rw" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="mlaserna"/>
+  <parameters xmi:id="_O0hoYdEcEeebStWXsXT5rw" key="CONN_PARA_KEY_KEYTAB" value="C:/Users/Administrator/Documents/mlaserna.keytab"/>
+  <parameters xmi:id="_O0hoYtEcEeebStWXsXT5rw" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
 </TalendMetadata:DatabaseConnection>

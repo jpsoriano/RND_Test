@@ -450,7 +450,7 @@
     <elementParameter field="CHECK" name="SET_JOBHISTORY_ADDRESS" value="true"/>
     <elementParameter field="TEXT" name="JOBHISTORY_ADDRESS" value="&quot;nvnnr1n11.novare.com.hk:10020&quot;"/>
     <elementParameter field="CHECK" name="SET_STAGING_DIRECTORY" value="true"/>
-    <elementParameter field="TEXT" name="STAGING_DIRECTORY" value="&quot;/user/ttableau&quot;"/>
+    <elementParameter field="TEXT" name="STAGING_DIRECTORY" value="&quot;/user/mlaserna&quot;"/>
     <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="false"/>
     <elementParameter field="CHECK" name="USE_KRB" value="true"/>
     <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;hdfs/nvnnr1n11.novare.com.hk@NOVARE.COM.HK&quot;"/>
@@ -458,8 +458,8 @@
     <elementParameter field="TEXT" name="RESOURCEMANAGER_PRINCIPAL" value="&quot;yarn/nvnnr1n11.novare.com.hk@NOVARE.COM.HK&quot;"/>
     <elementParameter field="TEXT" name="JOBHISTORY_PRINCIPAL" value="&quot;yarn/nvnnr2n12.novare.com.hk@NOVARE.COM.HK&quot;"/>
     <elementParameter field="CHECK" name="USE_KEYTAB" value="true"/>
-    <elementParameter field="TEXT" name="PRINCIPAL" value="&quot;ttableau/nvenr2n15.novare.com.hk@NOVARE.COM.HK&quot;"/>
-    <elementParameter field="FILE" name="KEYTAB_PATH" value="&quot;/tmp/ttableau.keytab&quot;"/>
+    <elementParameter field="TEXT" name="PRINCIPAL" value="&quot;mlaserna@NOVARE.COM.HK&quot;"/>
+    <elementParameter field="FILE" name="KEYTAB_PATH" value="&quot;/tmp/mlaserna.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
     <elementParameter field="TEXT" name="MAPRTICKET_USERNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" value="0RMsyjmybrE=" show="false"/>

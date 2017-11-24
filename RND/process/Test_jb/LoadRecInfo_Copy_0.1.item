@@ -7,7 +7,7 @@
     <contextParameter comment="" name="JollRecInfo2_FieldSeparator" prompt="JollRecInfo2_FieldSeparator?" promptNeeded="false" repositoryContextId="_8Fjl4LMhEeei0OEA1QVWWw" type="id_String" value="&quot;,&quot;"/>
   </context>
   <parameters>
-    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;-Dhadoop.home.dir=C:/winnt&quot;]}" show="false"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;-Dhadoop.home.dir=C:/winnt&quot;,&quot;-Djava.net.preferIPv4Stack=true -Dsun.security.krb5.debug=true&quot;]}" show="false"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
@@ -103,22 +103,22 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <routinesParameter id="_4NOx4LJPEeevlaVzxGohvg" name="DQTechnical"/>
-    <routinesParameter id="_4M7P4LJPEeevlaVzxGohvg" name="DataMasking"/>
-    <routinesParameter id="_4ME7ULJPEeevlaVzxGohvg" name="DataOperation"/>
-    <routinesParameter id="_4NCkoLJPEeevlaVzxGohvg" name="DataQualityDependencies"/>
-    <routinesParameter id="_4M9sILJPEeevlaVzxGohvg" name="DataQuality"/>
-    <routinesParameter id="_4NJ5YLJPEeevlaVzxGohvg" name="DqStringHandling"/>
-    <routinesParameter id="_4ElzQLJPEeevlaVzxGohvg" name="MDM"/>
-    <routinesParameter id="_4MJz0LJPEeevlaVzxGohvg" name="Mathematical"/>
-    <routinesParameter id="_4MMQELJPEeevlaVzxGohvg" name="Numeric"/>
-    <routinesParameter id="_4MOsULJPEeevlaVzxGohvg" name="Relational"/>
-    <routinesParameter id="_4MCfELJPEeevlaVzxGohvg" name="SQLike"/>
-    <routinesParameter id="_4MTk0LJPEeevlaVzxGohvg" name="StringHandling"/>
-    <routinesParameter id="_4MfyELJPEeevlaVzxGohvg" name="TalendDataGenerator"/>
-    <routinesParameter id="_4MsmYLJPEeevlaVzxGohvg" name="TalendDate"/>
-    <routinesParameter id="_4Mz7ILJPEeevlaVzxGohvg" name="TalendStringUtil"/>
-    <routinesParameter id="_4Mxe4LJPEeevlaVzxGohvg" name="TalendString"/>
+    <routinesParameter id="_fwndkLS2Eee1EoraJTJiWA" name="DQTechnical"/>
+    <routinesParameter id="_fwapQLS2Eee1EoraJTJiWA" name="DataMasking"/>
+    <routinesParameter id="_fvXgYLS2Eee1EoraJTJiWA" name="DataOperation"/>
+    <routinesParameter id="_fwgv4LS2Eee1EoraJTJiWA" name="DataQualityDependencies"/>
+    <routinesParameter id="_fwdskLS2Eee1EoraJTJiWA" name="DataQuality"/>
+    <routinesParameter id="_fwkaQLS2Eee1EoraJTJiWA" name="DqStringHandling"/>
+    <routinesParameter id="_fqtp4rS2Eee1EoraJTJiWA" name="MDM"/>
+    <routinesParameter id="_fvXgZLS2Eee1EoraJTJiWA" name="Mathematical"/>
+    <routinesParameter id="_fvXgaLS2Eee1EoraJTJiWA" name="Numeric"/>
+    <routinesParameter id="_fvgqULS2Eee1EoraJTJiWA" name="Relational"/>
+    <routinesParameter id="_fvNvY7S2Eee1EoraJTJiWA" name="SQLike"/>
+    <routinesParameter id="_fwIVYLS2Eee1EoraJTJiWA" name="StringHandling"/>
+    <routinesParameter id="_fwLYsLS2Eee1EoraJTJiWA" name="TalendDataGenerator"/>
+    <routinesParameter id="_fwPqILS2Eee1EoraJTJiWA" name="TalendDate"/>
+    <routinesParameter id="_fwPqKLS2Eee1EoraJTJiWA" name="TalendStringUtil"/>
+    <routinesParameter id="_fwPqJLS2Eee1EoraJTJiWA" name="TalendString"/>
   </parameters>
   <node componentName="tHDFSPut" componentVersion="0.101" offsetLabelX="50" offsetLabelY="-82" posX="384" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSPut_1" show="false"/>
@@ -535,11 +535,11 @@
   </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHDFSPut_1" offsetLabelX="0" offsetLabelY="0" source="tHDFSPut_1" target="tHiveCreateTable_1">
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHiveCreateTable_1" offsetLabelX="0" offsetLabelY="0" source="tHiveCreateTable_1" target="tHiveLoad_1">
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSPut_1" show="false"/>

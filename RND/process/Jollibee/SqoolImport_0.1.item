@@ -164,11 +164,11 @@
     <elementParameter field="TEXT" name="HADOOP_USER" value="context.HDFS1_User" show="false"/>
     <elementParameter field="TECHNICAL" name="JDBC_PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="JDBC_PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_0UZskLO3EeeMVchsBdwKnQ" show="false"/>
-    <elementParameter field="TEXT" name="CONNECTION" value="&quot;jdbc:mysql://localhost:3306/Jollibee&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION" value="&quot;jdbc:mysql://192.168.1.11:3306/talend&quot;"/>
     <elementParameter field="TEXT" name="USERNAME" value="&quot;root&quot;"/>
     <elementParameter field="CHECK" name="PASSWORD_STORED_IN_FILE" value="false"/>
     <elementParameter field="TEXT" name="PASSWORD_FILE" value="&quot;file:///&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="r0M4Avw8nA8="/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="7AeE30yoksC9aaW3S5uxiQ=="/>
     <elementParameter field="TABLE" name="DRIVER_JAR">
       <elementValue elementRef="JAR_NAME" value="mysql-connector-java-5.1.30-bin.jar"/>
     </elementParameter>

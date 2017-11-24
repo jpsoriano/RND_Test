@@ -130,11 +130,11 @@
     <elementParameter field="CHECK" name="CROSS_PLATFORM_SUBMISSION" value="false" show="false"/>
     <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://192.168.1.11:8020&quot;"/>
     <elementParameter field="TEXT" name="MAPRED_JOB_TRACKER" value="&quot;localhost:8021&quot;" show="false"/>
-    <elementParameter field="TEXT" name="RESOURCE_MANAGER" value="&quot;nvnnr1n11:8032&quot;"/>
+    <elementParameter field="TEXT" name="RESOURCE_MANAGER" value="&quot;nvnnr1n11.novare.com.hk:8032&quot;"/>
     <elementParameter field="CHECK" name="SET_SCHEDULER_ADDRESS" value="true"/>
-    <elementParameter field="TEXT" name="RESOURCEMANAGER_SCHEDULER_ADDRESS" value="&quot;nvnnr1n11:8030&quot;"/>
+    <elementParameter field="TEXT" name="RESOURCEMANAGER_SCHEDULER_ADDRESS" value="&quot;nvnnr1n11.novare.com.hk:8030&quot;"/>
     <elementParameter field="CHECK" name="SET_JOBHISTORY_ADDRESS" value="true"/>
-    <elementParameter field="TEXT" name="JOBHISTORY_ADDRESS" value="&quot;nvnnr1n11:10020&quot;"/>
+    <elementParameter field="TEXT" name="JOBHISTORY_ADDRESS" value="&quot;nvnnr1n11.novare.com.hk:10020&quot;"/>
     <elementParameter field="CHECK" name="SET_STAGING_DIRECTORY" value="true"/>
     <elementParameter field="TEXT" name="STAGING_DIRECTORY" value="&quot;/user&quot;"/>
     <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="false"/>

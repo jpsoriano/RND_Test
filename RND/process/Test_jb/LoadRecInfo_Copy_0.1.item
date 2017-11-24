@@ -10,7 +10,7 @@
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;-Dhadoop.home.dir=C:/winnt&quot;]}" show="false"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="8" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
@@ -450,7 +450,7 @@
     <elementParameter field="CHECK" name="SET_JOBHISTORY_ADDRESS" value="true"/>
     <elementParameter field="TEXT" name="JOBHISTORY_ADDRESS" value="&quot;nvnnr1n11.novare.com.hk:10020&quot;"/>
     <elementParameter field="CHECK" name="SET_STAGING_DIRECTORY" value="true"/>
-    <elementParameter field="TEXT" name="STAGING_DIRECTORY" value="&quot;/user/yesy&quot;"/>
+    <elementParameter field="TEXT" name="STAGING_DIRECTORY" value="&quot;/tmp/&quot;"/>
     <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="false"/>
     <elementParameter field="CHECK" name="USE_KRB" value="true"/>
     <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;hdfs/nvnnr1n11.novare.com.hk@NOVARE.COM.HK&quot;"/>

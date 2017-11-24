@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_0OGjYNEbEeebStWXsXT5rw" DatabaseType="Hive" URL="jdbc:hive2://nvnnr1n11.novare.com.hk:10000/default;principal=hive/_HOST@NOVARE.COM.HK" Port="10000" Username="" ServerName="nvnnr1n11.novare.com.hk" SID="default" DbmsId="hive_id" ProductId="HIVE">
+  <parameters xmi:id="_0OGjYdEbEeebStWXsXT5rw" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+  <parameters xmi:id="_0OGjYtEbEeebStWXsXT5rw" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="nvnnr1n11.novare.com.hk:8030"/>
+  <parameters xmi:id="_0OGjY9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_USEKEYTAB" value="false"/>
+  <parameters xmi:id="_0OGjZNEbEeebStWXsXT5rw" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+  <parameters xmi:id="_0OGjZdEbEeebStWXsXT5rw" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://nvnnr1n11.novare.com.hk:8020"/>
+  <parameters xmi:id="_0OGjZtEbEeebStWXsXT5rw" key="CONN_PARA_KEY_USERNAME" value=""/>
+  <parameters xmi:id="_0OGjZ9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_SJfrANEaEeebStWXsXT5rw"/>
+  <parameters xmi:id="_0OGjaNEbEeebStWXsXT5rw" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@NOVARE.COM.HK"/>
+  <parameters xmi:id="_0OGjadEbEeebStWXsXT5rw" key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_10"/>
+  <parameters xmi:id="_0OGjatEbEeebStWXsXT5rw" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="nvnnr1n11.novare.com.hk:8032"/>
+  <parameters xmi:id="_0OGja9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="nvnnr2n12.novare.com.hk:10020"/>
+  <parameters xmi:id="_0OGjbNEbEeebStWXsXT5rw" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_10"/>
+  <parameters xmi:id="_0OGjbdEbEeebStWXsXT5rw" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+  <parameters xmi:id="_0OGjbtEbEeebStWXsXT5rw" key="CONN_PARA_KEY_DB_SERVER" value="nvnnr1n11.novare.com.hk"/>
+  <parameters xmi:id="_0OGjb9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
+  <parameters xmi:id="_0OGjcNEbEeebStWXsXT5rw" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_0OGjcdEbEeebStWXsXT5rw" key="HIVE_AUTHENTICATION_HIVEPRINCIPLA" value="hive/_HOST@NOVARE.COM.HK"/>
+  <parameters xmi:id="_0OGjctEbEeebStWXsXT5rw" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@NOVARE.COM.HK"/>
+  <parameters xmi:id="_0OGjc9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA"/>
+  <parameters xmi:id="_0OGjdNEbEeebStWXsXT5rw" key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDH5_10"/>
+  <parameters xmi:id="_0OGjddEbEeebStWXsXT5rw" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA"/>
+  <parameters xmi:id="_0OGjdtEbEeebStWXsXT5rw" key="CONN_PARA_KEY_USE_KRB" value="true"/>
+  <parameters xmi:id="_0OGjd9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA"/>
+  <parameters xmi:id="_0OGjeNEbEeebStWXsXT5rw" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/tmp/"/>
+  <parameters xmi:id="_0OGjedEbEeebStWXsXT5rw" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@NOVARE.COM.HK"/>
+  <parameters xmi:id="_0OGjetEbEeebStWXsXT5rw" key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE"/>
+  <parameters xmi:id="_0OGje9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_0OGjfNEbEeebStWXsXT5rw" key="HIVE_AUTHENTICATION_METASTOREURL" value="thrift://nvnenr1n14.novare.com.hk:9083"/>
+  <parameters xmi:id="_0OGjfdEbEeebStWXsXT5rw" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_0OGjftEbEeebStWXsXT5rw" key="HIVE_SERVER_VERSION" value="HIVE2"/>
+  <parameters xmi:id="_0OGjf9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+</TalendMetadata:DatabaseConnection>

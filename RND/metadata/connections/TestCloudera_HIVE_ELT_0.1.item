@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_0OGjYNEbEeebStWXsXT5rw" DatabaseType="Hive" URL="jdbc:hive2://nvnnr1n11.novare.com.hk:10000/default;principal=hive/_HOST@NOVARE.COM.HK" Port="10000" Username="" ServerName="nvnnr1n11.novare.com.hk" SID="default" DbmsId="hive_id" ProductId="HIVE">
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_0OGjYNEbEeebStWXsXT5rw" name="TestCloudera_HIVE_ELT" id="_0NgtgNEbEeebStWXsXT5rw" label="TestCloudera_HIVE_ELT" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://nvnnr2n12.novare.com.hk:10000/elt_db;principal=hive/_HOST@NOVARE.COM.HK" dbVersionString="STANDALONE" Port="10000" Username="" ServerName="nvnnr2n12.novare.com.hk" SID="elt_db" SqlSynthax="SQL Syntax" DbmsId="hive_id" ProductId="HIVE" StandardSQL="true">
+  <taggedValue xmi:id="_FfXAANHxEeeoFr_qHJukQA" tag="Is Conn Need Reload" value="true"/>
   <parameters xmi:id="_0OGjYdEbEeebStWXsXT5rw" key="CONN_PARA_KEY_USE_YARN" value="true"/>
   <parameters xmi:id="_0OGjYtEbEeebStWXsXT5rw" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="nvnnr1n11.novare.com.hk:8030"/>
   <parameters xmi:id="_0OGjY9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_USEKEYTAB" value="true"/>
@@ -34,4 +35,12 @@
   <parameters xmi:id="_O0hoYNEcEeebStWXsXT5rw" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="mlaserna"/>
   <parameters xmi:id="_O0hoYdEcEeebStWXsXT5rw" key="CONN_PARA_KEY_KEYTAB" value="/tmp/mlaserna.keytab"/>
   <parameters xmi:id="_O0hoYtEcEeebStWXsXT5rw" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
+  <parameters xmi:id="_FceEENHxEeeoFr_qHJukQA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  <parameters xmi:id="_Fdzg0NHxEeeoFr_qHJukQA" key="HIVE_AUTHENTICATION_DRIVERCLASS" value=""/>
+  <parameters xmi:id="_Fdzg0dHxEeeoFr_qHJukQA" key="HIVE_AUTHENTICATION_USERNAME" value=""/>
+  <parameters xmi:id="_Fdzg0tHxEeeoFr_qHJukQA" key="HIVE_AUTHENTICATION_PASSWORD" value=""/>
+  <parameters xmi:id="_Fd61kNHxEeeoFr_qHJukQA" key="HIVE_EXECUTION_ENGINE"/>
+  <parameters xmi:id="_FeFNoNHxEeeoFr_qHJukQA" key="CONN_PARA_KEY_USE_SSL" value="false"/>
+  <parameters xmi:id="_FfrwINHxEeeoFr_qHJukQA" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
+  <parameters xmi:id="_FfrwIdHxEeeoFr_qHJukQA" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
 </TalendMetadata:DatabaseConnection>

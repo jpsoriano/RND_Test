@@ -723,7 +723,7 @@
     <elementParameter field="CHECK" name="SET_HADOOP_LOGIN" value="false" show="false"/>
     <elementParameter field="TEXT" name="HADOOP_LOGIN" value="&quot;kerberos&quot;" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="TABLE" label="ConvetedOrderDollar" name="table2">
+    <metadata label="ConvertedOrderDollar" name="table3">
       <column comment="" key="false" length="-1" name="ReceiptNum" nullable="true" pattern="" precision="-1" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="ProductName" nullable="true" pattern="" precision="-1" sourceType="STRING" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="Quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
@@ -737,12 +737,12 @@
         <DBMapperTableEntries name="Quantity"/>
         <DBMapperTableEntries name="TotalPrice"/>
       </InputTables>
-      <OutputTables name="table2" tableName="ConvetedOrderDollar">
-        <DBMapperTableEntries name="ReceiptNum" expression="orders.ReceiptNum  "/>
-        <DBMapperTableEntries name="ProductName" expression="orders.ProductName   "/>
-        <DBMapperTableEntries name="Quantity" expression="orders.Quantity   "/>
-        <DBMapperTableEntries name="TotalPrice" expression="orders.TotalPrice   "/>
-        <DBMapperTableEntries name="USD_TotalPrice" expression="(orders.TotalPrice / 49.0)  "/>
+      <OutputTables name="table3" tableName="ConvertedOrderDollar">
+        <DBMapperTableEntries name="ReceiptNum" expression="orders.ReceiptNum   "/>
+        <DBMapperTableEntries name="ProductName" expression="orders.ProductName    "/>
+        <DBMapperTableEntries name="Quantity" expression="orders.Quantity    "/>
+        <DBMapperTableEntries name="TotalPrice" expression="orders.TotalPrice    "/>
+        <DBMapperTableEntries name="USD_TotalPrice" expression="(orders.TotalPrice / 49.0)   "/>
       </OutputTables>
     </nodeData>
   </node>
@@ -784,9 +784,6 @@
   <connection connectorName="TABLE" label="orders" lineStyle="9" metaname="tELTHiveInput_1" offsetLabelX="0" offsetLabelY="0" source="tELTHiveInput_1" target="tELTHiveMap_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tELTHiveInput_1" show="false"/>
   </connection>
-  <connection connectorName="TABLE" label="ConvetedOrderDollar" lineStyle="9" metaname="table2" offsetLabelX="0" offsetLabelY="0" source="tELTHiveMap_1" target="tELTHiveOutput_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="table2" show="false"/>
-  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHiveCreateTable_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
@@ -809,6 +806,11 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tELTHiveInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tELTHiveOutput_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>

@@ -147,9 +147,9 @@
     <elementParameter field="TEXT" name="HIVESERVER2_LOCAL_PRINCIPAL" value="&quot;hiveServer2User@EXAMPLE.COM&quot;" show="false"/>
     <elementParameter field="FILE" name="HIVESERVER2_LOCAL_KEYTAB" value="&quot;/tmp/hiveServer2User.keytab&quot;" show="false"/>
     <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;hdfs/_HOST@NOVARE.COM.HK&quot;" show="false"/>
-    <elementParameter field="TEXT" name="JOBTRACKER_PRINCIPAL" value="&quot;yarn/nvnnr1n11.novare.com.hk@NOVARE.COM.HK&quot;" show="false"/>
+    <elementParameter field="TEXT" name="JOBTRACKER_PRINCIPAL" value="&quot;yarn/_HOST@NOVARE.COM.HK&quot;" show="false"/>
     <elementParameter field="TEXT" name="RESOURCEMANAGER_PRINCIPAL" value="&quot;yarn/_HOST@NOVARE.COM.HK&quot;" show="false"/>
-    <elementParameter field="TEXT" name="METASTORE_JDBC_URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="METASTORE_JDBC_URL" value="&quot;thrift://nvnenr1n14.novare.com.hk:9083&quot;" show="false"/>
     <elementParameter field="TEXT" name="METASTORE_CLASSNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="METASTORE_USERNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" value="0RMsyjmybrE=" show="false"/>
@@ -165,15 +165,15 @@
     <elementParameter field="FILE" name="SSL_TRUST_STORE" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" value="0RMsyjmybrE=" show="false"/>
     <elementParameter field="CHECK" name="SET_MAPRED_JT" value="false" show="false"/>
-    <elementParameter field="TEXT" name="MAPRED_JT" value="&quot;nvnnr1n11:8032&quot;" show="false"/>
+    <elementParameter field="TEXT" name="MAPRED_JT" value="&quot;nvnnr1n11.novare.com.hk:8032&quot;" show="false"/>
     <elementParameter field="CHECK" name="SET_RESOURCE_MANAGER" value="false" show="false"/>
-    <elementParameter field="TEXT" name="RESOURCE_MANAGER" value="&quot;nvnnr1n11:8032&quot;" show="false"/>
+    <elementParameter field="TEXT" name="RESOURCE_MANAGER" value="&quot;nvnnr1n11.novare.com.hk:8032&quot;" show="false"/>
     <elementParameter field="CHECK" name="SET_FS_DEFAULT_NAME" value="false" show="false"/>
-    <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://192.168.1.11:8020&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://nvnnr1n11.novare.com.hk:8020&quot;" show="false"/>
     <elementParameter field="CHECK" name="SET_SCHEDULER_ADDRESS" value="false" show="false"/>
-    <elementParameter field="TEXT" name="RESOURCEMANAGER_SCHEDULER_ADDRESS" value="&quot;nvnnr1n11:8030&quot;" show="false"/>
+    <elementParameter field="TEXT" name="RESOURCEMANAGER_SCHEDULER_ADDRESS" value="&quot;nvnnr1n11.novare.com.hk:8030&quot;" show="false"/>
     <elementParameter field="CHECK" name="SET_JOBHISTORY_ADDRESS" value="false" show="false"/>
-    <elementParameter field="TEXT" name="JOBHISTORY_ADDRESS" value="&quot;nvnnr1n11:10020&quot;" show="false"/>
+    <elementParameter field="TEXT" name="JOBHISTORY_ADDRESS" value="&quot;nvnnr2n12.novare.com.hk:10020&quot;" show="false"/>
     <elementParameter field="CHECK" name="SET_HADOOP_USER" value="false" show="false"/>
     <elementParameter field="TEXT" name="HADOOP_USER" value="&quot;hadoop&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="true" show="false"/>
@@ -194,7 +194,9 @@
     <elementParameter field="TEXT" name="GOOGLE_JARS_BUCKET" value="&quot;gs://my-bucket/talend/jars&quot;" show="false"/>
     <elementParameter field="CHECK" name="DEFINE_PATH_TO_GOOGLE_CREDENTIALS" value="false" show="false"/>
     <elementParameter field="TEXT" name="PATH_TO_GOOGLE_CREDENTIALS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Sales&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_xJ36UNIAEeeoFr_qHJukQA - sales" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;sales&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="CREATE_IF_NOT_EXIST"/>
     <elementParameter field="LABEL" name="PARQUET_NOTE" value="Parquet is only supported if the distribution uses embedded Hive version 0.10 or later." show="false"/>
     <elementParameter field="CLOSED_LIST" name="STORAGE_FORMAT" value="TEXTFILE"/>
@@ -251,9 +253,9 @@
     <elementParameter field="TEXT" name="HADOOP_LOGIN" value="&quot;kerberos&quot;" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="HiveCreateSales"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="Sales" name="tHiveCreateTable_1">
-      <column comment="" key="true" length="1" name="Branch_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="Date" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+    <metadata connector="FLOW" label="sales" name="tHiveCreateTable_1">
+      <column comment="" key="false" length="1" name="Branch_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date" nullable="true" pattern="&quot;yyyy-MM-dd' 'HH:mm:ss&quot;" precision="0" sourceType="STRING" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="Sales" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="7" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="Profit" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="Temp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>

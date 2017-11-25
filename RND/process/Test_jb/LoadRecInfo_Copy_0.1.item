@@ -502,7 +502,7 @@
     <elementParameter field="CHECK" name="USE_MAPPERS" value="false"/>
     <elementParameter field="TEXT" name="MAPPERS" value="&quot;2&quot;" show="false"/>
     <elementParameter field="CHECK" name="PRINT_LOG" value="true"/>
-    <elementParameter field="CHECK" name="VERBOSE" value="false"/>
+    <elementParameter field="CHECK" name="VERBOSE" value="true"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CHECK" name="MYSQL_DELIMITERS" value="false"/>
     <elementParameter field="CHECK" name="DEFINE_JAVA_MAPPING" value="false"/>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_0qxogNHwEeeoFr_qHJukQA" comment="connectionComment" label="connectionLabel" dataPackage="_0qxogdHwEeeoFr_qHJukQA" mappingTypeUsed="true" mappingTypeId="hive_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_0qxogdHwEeeoFr_qHJukQA" dataManager="_0qxogNHwEeeoFr_qHJukQA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_0qxogtHwEeeoFr_qHJukQA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0qxog9HwEeeoFr_qHJukQA" name="ReceiptNum" id="3368" label="ReceiptNum" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_0qxohNHwEeeoFr_qHJukQA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0qxohdHwEeeoFr_qHJukQA" name="ProductName" id="3369" label="ProductName" length="48" sourceType="STRING" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_0qxohtHwEeeoFr_qHJukQA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0qxoh9HwEeeoFr_qHJukQA" name="Quantity" id="3370" label="Quantity" length="1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_0qxoiNHwEeeoFr_qHJukQA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0qxoidHwEeeoFr_qHJukQA" name="TotalPrice" id="3371" label="TotalPrice" length="6" precision="3" sourceType="FLOAT" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_0qxoitHwEeeoFr_qHJukQA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

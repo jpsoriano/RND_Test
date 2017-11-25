@@ -732,10 +732,6 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHiveCreateTable_1" offsetLabelX="0" offsetLabelY="0" source="tHiveCreateTable_1" target="tELTHiveMap_1">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
-  </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHiveConnection_1" offsetLabelX="0" offsetLabelY="0" source="tHiveConnection_1" target="tHiveCreateTable_1">
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
@@ -745,6 +741,9 @@
   </connection>
   <connection connectorName="TABLE" label="outPut1" lineStyle="9" metaname="table1" offsetLabelX="0" offsetLabelY="0" source="tELTHiveMap_1" target="tELTHiveOutput_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="table1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHiveConnection_2" offsetLabelX="0" offsetLabelY="0" source="tHiveConnection_2" target="tELTHiveMap_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSqoopImport_1" show="false"/>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_yzMNENH2EeeoFr_qHJukQA" comment="connectionComment" label="connectionLabel" dataPackage="_yzMNEdH2EeeoFr_qHJukQA" mappingTypeUsed="true" mappingTypeId="hive_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_yzMNEdH2EeeoFr_qHJukQA" dataManager="_yzMNENH2EeeoFr_qHJukQA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_yzMNEtH2EeeoFr_qHJukQA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzMNE9H2EeeoFr_qHJukQA" name="ReceiptNum" id="3825" label="ReceiptNum" length="-1" precision="-1" sourceType="STRING" talendType="id_String">
+        <initialValue xmi:id="_yzMNFNH2EeeoFr_qHJukQA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzMNFdH2EeeoFr_qHJukQA" name="ProductName" id="3826" label="ProductName" length="-1" precision="-1" sourceType="STRING" talendType="id_String">
+        <initialValue xmi:id="_yzMNFtH2EeeoFr_qHJukQA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzMNF9H2EeeoFr_qHJukQA" name="Quantity" id="3827" label="Quantity" length="1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yzMNGNH2EeeoFr_qHJukQA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzMNGdH2EeeoFr_qHJukQA" name="TotalPrice" id="3828" label="TotalPrice" length="6" precision="3" sourceType="FLOAT" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yzMNGtH2EeeoFr_qHJukQA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzMNG9H2EeeoFr_qHJukQA" name="USD_TotalPrice" id="3829" label="USD_TotalPrice" length="6" precision="3" sourceType="FLOAT" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yzMNHNH2EeeoFr_qHJukQA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

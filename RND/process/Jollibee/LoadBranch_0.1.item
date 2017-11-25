@@ -654,11 +654,11 @@
     <elementParameter field="CLOSED_LIST" name="PARQUET_COMPRESSION" value="UNCOMPRESSED" show="false"/>
     <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select * from Orders&quot;" show="false"/>
     <elementParameter field="CLOSED_LIST" name="FILE_ACTION" value="OVERWRITE"/>
-    <elementParameter field="CHECK" name="LOCAL" value="false"/>
+    <elementParameter field="CHECK" name="LOCAL" value="true"/>
     <elementParameter field="CHECK" name="SET_PARTITIONS" value="false"/>
     <elementParameter field="TEXT" name="PARTITION" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="CREATE_IF_NOT_EXIST" value="false" show="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="TEZ_LIB" value="INSTALL" show="false"/>
     <elementParameter field="DIRECTORY_HADOOP" name="TEZ_LIB_FOLDER" value="&quot;/tmp/{USERNAME}/talend_tez_libs/{custom|HIVE_VERSION}&quot;" show="false"/>
     <elementParameter field="TEXT" name="GROUP" value="&quot;supergroup&quot;" show="false"/>

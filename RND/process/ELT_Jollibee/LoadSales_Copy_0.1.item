@@ -252,8 +252,8 @@
     <elementParameter field="TEXT" name="LABEL" value="HiveCreateSales"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="Sales" name="tHiveCreateTable_1">
-      <column comment="" key="false" length="1" name="Branch_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="Date" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="true" length="1" name="Branch_ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="Sales" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="7" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="Profit" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="Temp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
@@ -262,6 +262,7 @@
   </node>
   <node componentName="tSqoopImport" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSqoopImport_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="LABEL" name="NOTE_COMMANDINE" value="The available options are based on Sqoop 1.4.4. If you use&#xA;&#x9;&#x9;&#x9;&#x9;an earlier version, read the Sqoop documentation in order to find&#xA;&#x9;&#x9;&#x9;&#x9;those which are not available.&#xA;&#x9;&#x9;&#x9;" show="false"/>
     <elementParameter field="RADIO" name="USE_COMMANDLINE" value="false"/>
     <elementParameter field="RADIO" name="USE_JAVAAPI" value="true"/>
@@ -803,6 +804,7 @@
     </nodeData>
   </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tSqoopImport_1" offsetLabelX="0" offsetLabelY="0" source="tSqoopImport_1" target="tHiveConnection_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHiveConnection_1" offsetLabelX="0" offsetLabelY="0" source="tHiveConnection_1" target="tHiveCreateTable_1">

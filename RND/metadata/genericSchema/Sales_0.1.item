@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_uiV3YNIAEeeoFr_qHJukQA" comment="connectionComment" label="connectionLabel" dataPackage="_uiV3YdIAEeeoFr_qHJukQA" mappingTypeUsed="true" mappingTypeId="hive_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_uiV3YdIAEeeoFr_qHJukQA" dataManager="_uiV3YNIAEeeoFr_qHJukQA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_uiWecNIAEeeoFr_qHJukQA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uiWecdIAEeeoFr_qHJukQA" name="Branch_ID" id="4430" label="Branch_ID" length="1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_uiWectIAEeeoFr_qHJukQA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uiWec9IAEeeoFr_qHJukQA" name="Date" id="4431" label="Date" length="10" sourceType="STRING" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_uiWedNIAEeeoFr_qHJukQA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uiWeddIAEeeoFr_qHJukQA" name="Sales" id="4432" label="Sales" length="13" precision="7" sourceType="FLOAT" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_uiWedtIAEeeoFr_qHJukQA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uiWed9IAEeeoFr_qHJukQA" name="Profit" id="4433" label="Profit" length="14" precision="8" sourceType="DOUBLE" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_uiWeeNIAEeeoFr_qHJukQA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uiWeedIAEeeoFr_qHJukQA" name="Temp" id="4434" label="Temp" length="2" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_uiWeetIAEeeoFr_qHJukQA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

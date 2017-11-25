@@ -545,7 +545,6 @@
     <ItemsRelations xmi:id="_jmJOYNHmEeeoFr_qHJukQA">
       <baseItem xmi:id="_jmJOYdHmEeeoFr_qHJukQA" id="_jk-wwNHmEeeoFr_qHJukQA" version="0.1" type="job"/>
       <relatedItems xmi:id="_jmJOYtHmEeeoFr_qHJukQA" id="_n_Rw8LMdEeei0OEA1QVWWw" version="Latest" type="context"/>
-      <relatedItems xmi:id="_jmJOZNHmEeeoFr_qHJukQA" id="_8l2bELWIEeegfplVZ8NDaQ" version="Latest" type="property"/>
       <relatedItems xmi:id="_jmJOZtHmEeeoFr_qHJukQA" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_jmJOZ9HmEeeoFr_qHJukQA" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_jmJOaNHmEeeoFr_qHJukQA" id="TalendString" version="Latest" type="routine"/>

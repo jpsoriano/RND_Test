@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_qYlvYNHiEeeoFr_qHJukQA" comment="connectionComment" label="connectionLabel" dataPackage="_qYlvYdHiEeeoFr_qHJukQA" mappingTypeUsed="true" mappingTypeId="hive_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_qYlvYdHiEeeoFr_qHJukQA" dataManager="_qYlvYNHiEeeoFr_qHJukQA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qYlvYtHiEeeoFr_qHJukQA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qYlvY9HiEeeoFr_qHJukQA" name="Branch_id" id="237" label="Branch_id" length="-1" precision="-1" sourceType="STRING" talendType="id_String">
+        <initialValue xmi:id="_qYlvZNHiEeeoFr_qHJukQA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qYlvZdHiEeeoFr_qHJukQA" name="Branch_id_2" id="282" label="Branch_id_2" length="-1" precision="-1" sourceType="STRING" talendType="id_String">
+        <initialValue xmi:id="_qYlvZtHiEeeoFr_qHJukQA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -382,8 +382,6 @@
   </node>
   <node componentName="tHDFSPut" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSPut_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_bbbQwLPLEee5VrhmT5Bg1A" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
@@ -397,7 +395,7 @@
     <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;hdfs/nvnnr1n11.novare.com.hk@NOVARE.COM.HK&quot;"/>
     <elementParameter field="CHECK" name="USE_KEYTAB" value="true"/>
     <elementParameter field="TEXT" name="PRINCIPAL" value="&quot;ttableau/nvenr2n15.novare.com.hk@NOVARE.COM.HK&quot;"/>
-    <elementParameter field="FILE" name="KEYTAB_PATH" value="&quot;C:/winnt/ttableau.keytab&quot;"/>
+    <elementParameter field="FILE" name="KEYTAB_PATH" value="&quot;C:/Users/Administrator/Documents/ttableau.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
     <elementParameter field="TEXT" name="USERNAME" value="&quot;anonymous&quot;" show="false"/>
     <elementParameter field="TEXT" name="GROUP" value="&quot;supergroup&quot;" show="false"/>

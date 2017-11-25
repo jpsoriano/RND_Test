@@ -132,7 +132,7 @@
     <elementParameter field="CHECK" name="SET_JOBHISTORY_ADDRESS" value="true"/>
     <elementParameter field="TEXT" name="JOBHISTORY_ADDRESS" value="&quot;nvnnr2n12.novare.com.hk:10020&quot;"/>
     <elementParameter field="CHECK" name="SET_STAGING_DIRECTORY" value="true"/>
-    <elementParameter field="TEXT" name="STAGING_DIRECTORY" value="&quot;/user/mlaserna/Branch&quot;"/>
+    <elementParameter field="TEXT" name="STAGING_DIRECTORY" value="&quot;/user&quot;"/>
     <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="true"/>
     <elementParameter field="CHECK" name="USE_KRB" value="true"/>
     <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;hdfs/_HOST@NOVARE.COM.HK&quot;"/>

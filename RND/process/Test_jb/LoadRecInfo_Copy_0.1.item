@@ -7,7 +7,7 @@
     <contextParameter comment="" name="JollRecInfo2_FieldSeparator" prompt="JollRecInfo2_FieldSeparator?" promptNeeded="false" repositoryContextId="_8Fjl4LMhEeei0OEA1QVWWw" type="id_String" value="&quot;,&quot;"/>
   </context>
   <parameters>
-    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;-Dhadoop.home.dir=/etc/hadoop/&quot;,&quot;-Djava.net.preferIPv4Stack=true -Dsun.security.krb5.debug=true&quot;]}" show="false"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;-Dhadoop.home.dir=/etc/hadoop/&quot;]}" show="false"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>

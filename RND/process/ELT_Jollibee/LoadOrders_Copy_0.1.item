@@ -444,8 +444,8 @@
     <elementParameter field="TEXT" name="TARGET" value="&quot;/home/user/target&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_SPLIT" value="false"/>
     <elementParameter field="TEXT" name="SPLIT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="USE_MAPPERS" value="false"/>
-    <elementParameter field="TEXT" name="MAPPERS" value="&quot;2&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_MAPPERS" value="true"/>
+    <elementParameter field="TEXT" name="MAPPERS" value="&quot;1&quot;"/>
     <elementParameter field="CHECK" name="PRINT_LOG" value="false"/>
     <elementParameter field="CHECK" name="VERBOSE" value="false" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>

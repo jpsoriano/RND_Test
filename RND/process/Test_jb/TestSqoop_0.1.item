@@ -483,7 +483,7 @@
   <node componentName="tELTHiveMap" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tELTHiveMap_1" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tHiveConnection_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tHiveConnection_2"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="CLOSED_LIST" name="HIVE_VERSION" value="EMR_5_5_0" show="false"/>

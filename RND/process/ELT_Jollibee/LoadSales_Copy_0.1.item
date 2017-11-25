@@ -745,7 +745,7 @@
       <OutputTables name="table2" tableName="convertedsales">
         <DBMapperTableEntries name="Branch_ID" expression="sales.Branch_ID  "/>
         <DBMapperTableEntries name="Date" expression="sales.Date  "/>
-        <DBMapperTableEntries name="Sales" expression="Float.valueOf(String.format(&quot;%.2f&quot;, sales.Sales))  "/>
+        <DBMapperTableEntries name="Sales" expression="string.format(&quot;%.2f&quot;, sales.Sales)"/>
         <DBMapperTableEntries name="Profit" expression="Double.valueOf(String.format(&quot;%.2f&quot;,sales.Profit))  "/>
         <DBMapperTableEntries name="Temp" expression="(sales.Temp * 9/5) + 32  "/>
       </OutputTables>

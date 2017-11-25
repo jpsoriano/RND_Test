@@ -539,7 +539,7 @@
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
     <elementParameter field="LABEL" name="PARQUET_NOTE" value="Parquet is only supported if the distribution uses embedded&#xA;&#x9;&#x9;&#x9;&#x9;Hive version 0.10 or later.&#xA;&#x9;&#x9;&#x9;"/>
     <elementParameter field="CHECK" name="USE_PARQUET" value="false"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select * from twitterdata.branch&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;CREATE VIEW testdata AS select * from twitterdata.branch&quot;"/>
     <elementParameter field="CHECK" name="STORE_BY_HBASE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ZOOKEEPER_QUORUM" value="&quot;localhost&quot;" show="false"/>
     <elementParameter field="TEXT" name="ZOOKEEPER_CLIENT_PORT" value="&quot;2181&quot;" show="false"/>

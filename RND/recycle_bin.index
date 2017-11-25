@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2017-10-20T21:36:25.428+0800">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2017-11-25T21:43:10.873+0800">
   <deletedItems id="_NRSA4LO4EeeMVchsBdwKnQ" path="Jollibee" type="PROCESS"/>
   <deletedItems id="_LHl_ILU6EeeffLvbT8e44Q" path="Jollibee" type="PROCESS"/>
   <deletedItems id="_nMyZgLMcEeei0OEA1QVWWw" path="Jollibee" type="PROCESS"/>
   <deletedItems id="_70XVwLVyEeeVt_IEBpECag" path="Jollibee" type="PROCESS"/>
   <deletedItems id="_KOksgLR2Eeewvq6Ve5Ih5A" path="PSA" type="PROCESS"/>
   <deletedItems id="_phfsULS3Eee1EoraJTJiWA" path="City_Rankings" type="PROCESS"/>
+  <deletedItems id="_pM9K8NDrEeeTTYcfGmErkg" path="Test_jb" type="PROCESS"/>
+  <deletedItems id="_wB30UNDrEeeTTYcfGmErkg" path="Test_jb" type="PROCESS"/>
+  <deletedItems id="_zgVJIND0EeefKIOPrKEtBQ" path="Test_jb" type="PROCESS"/>
 </recyclebin:RecycleBin>

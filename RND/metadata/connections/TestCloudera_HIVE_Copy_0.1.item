@@ -32,6 +32,6 @@
   <parameters xmi:id="_0OGjftEbEeebStWXsXT5rw" key="HIVE_SERVER_VERSION" value="HIVE2"/>
   <parameters xmi:id="_0OGjf9EbEeebStWXsXT5rw" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
   <parameters xmi:id="_O0hoYNEcEeebStWXsXT5rw" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="mlaserna"/>
-  <parameters xmi:id="_O0hoYdEcEeebStWXsXT5rw" key="CONN_PARA_KEY_KEYTAB" value="/tmp/mlaserna.keytab"/>
+  <parameters xmi:id="_O0hoYdEcEeebStWXsXT5rw" key="CONN_PARA_KEY_KEYTAB" value="C:/Users/Administrator/Documents/mlaserna.keytab"/>
   <parameters xmi:id="_O0hoYtEcEeebStWXsXT5rw" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
 </TalendMetadata:DatabaseConnection>

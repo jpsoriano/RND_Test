@@ -352,7 +352,7 @@
     </metadata>
     <metadata connector="PARTITION" name="PARTITION"/>
   </node>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tSqoopImport_1" offsetLabelX="0" offsetLabelY="0" source="tSqoopImport_1" target="tHiveCreateTable_1">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tSqoopImport_1" offsetLabelX="3" offsetLabelY="-3" source="tSqoopImport_1" target="tHiveCreateTable_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
   </connection>
   <subjob>

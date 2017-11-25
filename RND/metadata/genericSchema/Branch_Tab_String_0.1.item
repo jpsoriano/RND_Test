@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_4V8hQNHFEeeafZcPsD8PMQ" comment="connectionComment" label="connectionLabel" dataPackage="_4V8hQdHFEeeafZcPsD8PMQ" mappingTypeUsed="true" mappingTypeId="hive_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_4V8hQdHFEeeafZcPsD8PMQ" dataManager="_4V8hQNHFEeeafZcPsD8PMQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_4V8hQtHFEeeafZcPsD8PMQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4V8hQ9HFEeeafZcPsD8PMQ" name="Branch_id" id="7" label="Branch_id" length="2" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_4V8hRNHFEeeafZcPsD8PMQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4V8hRdHFEeeafZcPsD8PMQ" name="Branch_Name" id="8" label="Branch_Name" length="22" sourceType="STRING" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_4V8hRtHFEeeafZcPsD8PMQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4V8hR9HFEeeafZcPsD8PMQ" name="Branch_Location" id="9" label="Branch_Location" length="82" sourceType="STRING" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_4V8hSNHFEeeafZcPsD8PMQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4V8hSdHFEeeafZcPsD8PMQ" name="Latitude" id="10" label="Latitude" length="10" precision="8" sourceType="STRING" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_4V8hStHFEeeafZcPsD8PMQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4V8hS9HFEeeafZcPsD8PMQ" name="Longtitude" id="11" label="Longtitude" length="11" precision="8" sourceType="STRING" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_4V8hTNHFEeeafZcPsD8PMQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4V8hTdHFEeeafZcPsD8PMQ" name="Zone" id="12" label="Zone" length="12" sourceType="STRING" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_4V8hTtHFEeeafZcPsD8PMQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4V8hT9HFEeeafZcPsD8PMQ" name="City_Province" id="13" label="City_Province" length="11" sourceType="STRING" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_4V8hUNHFEeeafZcPsD8PMQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

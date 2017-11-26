@@ -548,7 +548,7 @@
     <elementParameter field="CHECK" name="SET_PARTITIONS" value="false"/>
     <elementParameter field="CHECK" name="SET_FILE_LOCATION" value="true"/>
     <elementParameter field="CHECK" name="S3_LOCATION" value="false"/>
-    <elementParameter field="TEXT" name="FILE_LOCATION" value="&quot;/user/mlaserna/converted_orders_dollar&quot;"/>
+    <elementParameter field="TEXT" name="FILE_LOCATION" value="&quot;/user/mlaserna/converted_sales&quot;"/>
     <elementParameter field="TEXT" name="S3_BUCKET" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="S3_USERNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="S3_PASSWORD" value="0RMsyjmybrE=" show="false"/>
